@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drought-Resilient Crop Recommendation System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="header">
+    <h1>AI-Based Drought-Resilient Crop Recommendation</h1>
+    <p>Machine Learning Based Crop and Variety Recommendation System</p>
+</div>
+
+{% include "_nav.html" %}
+
+<div class="container">
+
+    {% if entry %}
+    <div class="saved-bar">Saved to history as <a class="link" href="{{ url_for('history_detail', entry_id=entry.id) }}">record #{{ entry.id }}</a>.
+        Refreshing this page keeps your result. <a class="link" href="{{ url_for('history_page') }}">View all history</a></div>
+    {% endif %}
+
+    <div class="card">
+        <h2>🌱 Farmer Information</h2>
+
+        {% if errors %}
+        <div class="errors">
+            <strong>Please correct the following:</strong>
+            <ul>{% for e in errors %}<li>{{ e }}</li>{% endfor %}</ul>
+        </div>
+        {% endif %}
+
+        <form method="POST">
+            <div class="form-grid">
+
+                <div class="form-group">
+                    <label>Season</label>
+                    <select name="season" required>
+                        {% for s in seasons %}
+                        <option value="{{ s }}" {% if form.get('season', 'Kharif') == s %}selected{% endif %}>
+                            {{ season_labels[s] }}
+                        </option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Region (for variety selection)</label>
+                    <select name="region">
+                        <option value="Any">Any region</option>
+                        {% for r in regions %}
+                        <option value="{{ r }}" {% if form.get('region') == r %}selected{% endif %}>{{ r }} India</option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Average Temperature (°C)</label>
+                    <input type="number" name="temperature" step="0.1" min="0" max="50"
+                           placeholder="Example: 32" value="{{ form.get('temperature', '') }}" required>
+                    <span class="hint">Mean temperature during the growing season</span>
+                </div>
+
+                <div class="form-group">
+                    <label>Seasonal Rainfall (mm)</label>
+                    <input type="number" name="rainfall" step="1" min="0" max="3000"
+                           placeholder="Example: 450" value="{{ form.get('rainfall', '') }}" required>
+                    <span class="hint">Total rainfall expected during the growing season (not annual)</span>
+                </div>
+
+                <div class="form-group">
+                    <label>Humidity (%)</label>
+                    <input type="number" name="humidity" step="0.1" min="0" max="100"
+                           placeholder="Example: 40" value="{{ form.get('humidity', '') }}" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Soil pH</label>
+                    <input type="number" name="soil_ph" step="0.1" min="3" max="10"
+                           placeholder="Example: 7.0" value="{{ form.get('soil_ph', '') }}" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Water Availability</label>
+                    <select name="water_availability" required>
+                        <option value="">Select Water Availability</option>
+                        {% for w in water_levels %}
+                        <option value="{{ w }}" {% if form.get('water_availability') == w %}selected{% endif %}>{{ w.title() }}</option>
+                        {% endfor %}
+                    </select>
+                    <span class="hint">Irrigation or stored soil moisture available</span>
+                </div>
+
+                <div class="form-group">
+                    <label>Soil Type</label>
+                    <select name="soil_type" required>
+                        <option value="">Select Soil Type</option>
+                        {% for s in soil_types %}
+                        <option value="{{ s }}" {% if form.get('soil_type') == s %}selected{% endif %}>{{ s.replace('_', ' ').title() }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+            </div>
+
+            <div class="button-container">
+                <button type="submit">Get Crop Recommendation</button>
+            </div>
+        </form>
+    </div>
+
+    {% if result %}
+    <div class="card">
+        <h2>📊 Recommendation Result</h2>
+        {% if entry %}<p class="hint">Run #{{ entry.id }} &middot; <time class="localtime" datetime="{{ entry.created_at }}">{{ entry.created_at }}</time> &middot;
+            <a class="link" href="{{ url_for('history_detail', entry_id=entry.id) }}">Compare with today's model</a></p>{% endif %}
+
+        <div class="result-box">
+            <strong>Season:</strong> {{ season_labels[result.season] }}
+        </div>
+        <div class="result-box">
+            <strong>Drought Risk:</strong>
+            <span class="badge {{ result.drought_risk }}">{{ result.drought_risk }}</span>
+            &nbsp; (score {{ result.drought_score }}/{{ result.drought_max }})
+        </div>
+        <div class="result-box">
+            <strong>Recommended Crop:</strong> {{ result.best_crop }}
+            &nbsp; <small>({{ result.best_tolerance }} drought tolerance)</small>
+            &nbsp; <span class="badge conf-{{ result.confidence }}">{{ result.confidence }} confidence</span>
+        </div>
+        <div class="result-box">
+            <strong>Recommended Variety:</strong> {{ result.best_variety }}
+        </div>
+
+        {% for n in result.notes %}<div class="note">⚠ {{ n }}</div>{% endfor %}
+
+        <h3>Crop Ranking</h3>
+        <div class="table-wrap">
+        <table>
+            <tr><th>#</th><th>Crop</th><th>Suitability</th><th>Drought tolerance</th><th>Final score</th></tr>
+            {% for c in result.crops %}
+            <tr {% if loop.first %}class="best"{% endif %}>
+                <td>{{ loop.index }}</td><td>{{ c.crop }}</td><td>{{ c.suitability }}%</td>
+                <td>{{ c.tolerance.title() }}</td><td>{{ c.final_score }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+        </div>
+        <p class="hint">Suitability comes from the ML model (only crops grown in this season are listed).
+           Final score = suitability, scaled down for crops with low drought tolerance (more strongly when drought risk is high).</p>
+
+        <h3>Top Varieties for {{ result.best_crop }}</h3>
+        {% if result.variety_note %}<div class="note">{{ result.variety_note }}</div>{% endif %}
+        {% if result.varieties %}
+        <div class="table-wrap">
+        <table>
+            <tr><th>#</th><th>Variety</th><th>Drought tolerance</th><th>Maturity</th><th>Water need</th><th>Region</th><th>Match</th></tr>
+            {% for v in result.varieties %}
+            <tr {% if loop.first %}class="best"{% endif %}>
+                <td>{{ loop.index }}</td><td>{{ v.variety }}</td><td>{{ v.tolerance.title() }}</td>
+                <td>{% if v.maturity_days %}{{ v.maturity_days }} days{% else %}-{% endif %}</td>
+                <td>{{ v.water_requirement.title() }}</td><td>{{ v.region }}</td><td>{{ v.region_match }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+        </div>
+        {% endif %}
+
+        <h3>Why this recommendation?</h3>
+        <ul class="why">{% for line in result.explanation %}<li>{{ line }}</li>{% endfor %}</ul>
+
+        <h3>Your conditions vs. typical needs of {{ result.best_crop }} ({{ result.season }})</h3>
+        <div class="table-wrap">
+        <table>
+            <tr><th>Factor</th><th>Your value</th><th>Typical range</th><th></th></tr>
+            {% for c in result.range_check %}
+            <tr><td>{{ c.name }}</td><td>{{ c.value }}</td><td>{{ c.typical }}</td>
+                <td>{% if c.ok %}<span class="ok">✔ within range</span>{% else %}<span class="bad">✖ outside</span>{% endif %}</td></tr>
+            {% endfor %}
+        </table>
+        </div>
+
+        {% if result.metrics and result.metrics.feature_importance %}
+        <h3>What the model pays attention to</h3>
+        <div class="bars">
+            {% for name, val in result.metrics.feature_importance.items() %}
+            <div class="row"><span class="lab">{{ name.replace('_', ' ').title() }}</span>
+                <span class="track"><span class="fill" style="display:block;width:{{ val * 4 }}%"></span></span>
+                <span class="val">{{ val }}%</span></div>
+            {% endfor %}
+        </div>
+        <h3>Algorithms compared</h3>
+        <div class="table-wrap"><table>
+            <tr><th>Model</th><th>Top-1</th><th>Top-3</th><th>5-fold CV</th></tr>
+            {% for m in result.metrics.model_comparison %}
+            <tr {% if m.model == 'Random Forest' %}class="best"{% endif %}><td>{{ m.model }}</td>
+                <td>{{ (m.top1 * 100)|round(1) }}%</td><td>{{ (m.top3 * 100)|round(1) }}%</td><td>{{ (m.cv * 100)|round(1) }}%</td></tr>
+            {% endfor %}
+        </table></div>
+        <p class="hint">Random Forest is used: its scores are close to the best, it handles
+           non-linear ranges and gives feature importance.</p>
+        {% endif %}
+
+        {% if result.metrics %}
+        <p class="hint">Model: Random Forest trained on {{ result.metrics.records }} synthetic records,
+           {{ result.metrics.crops }} crops. Top-3 accuracy within the season:
+           {{ (result.metrics.season_top3_accuracy * 100)|round(1) }}%.</p>
+        {% endif %}
+    </div>
+    {% endif %}
+
+</div>
+
+<div class="footer">
+    AI-Based Drought-Resilient Crop/Variety Recommendation System<br>
+    Developed by Harish Beniwal (24BCT0311)<br>
+    Academic prototype. Variety details are approximate; confirm with your local agricultural university or KVK before sowing.
+</div>
+
+{% include "_time.html" %}
+</body>
+</html>

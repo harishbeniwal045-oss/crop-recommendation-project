@@ -1,0 +1,7 @@
+<script>
+/* show saved UTC timestamps in the visitor's own local time */
+document.querySelectorAll("time.localtime").forEach(function (el) {
+    var d = new Date(el.getAttribute("datetime"));
+    if (!isNaN(d)) el.textContent = d.toLocaleString([], {dateStyle: "medium", timeStyle: "short"});
+});
+</script>

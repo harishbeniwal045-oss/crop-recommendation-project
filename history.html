@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History - Crop Recommendation System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="header">
+    <h1>Recommendation History</h1>
+    <p>Every past input and output, saved so you can check and compare them any time</p>
+</div>
+{% include "_nav.html" %}
+<div class="container">
+
+    {% if message %}<div class="errors">{{ message }}</div>{% endif %}
+
+    <div class="stats">
+        <div class="stat"><b>{{ stats.total }}</b><span>Total runs saved</span></div>
+        <div class="stat"><b>{{ stats.distinct_inputs }}</b><span>Different input sets</span></div>
+        <div class="stat"><b>{{ stats.top_crops[0][0] if stats.top_crops else '-' }}</b><span>Most recommended crop</span></div>
+        <div class="stat"><b>{{ stats.risks.get('HIGH', 0) }}</b><span>High drought-risk runs</span></div>
+    </div>
+
+    <div class="card">
+        <h2>🕘 Past Inputs &amp; Outputs</h2>
+        <form method="GET" class="filters">
+            <div><label>Search crop / variety</label>
+                <input type="text" name="q" value="{{ filters.q or '' }}" placeholder="e.g. Sorghum"></div>
+            <div><label>Season</label>
+                <select name="season"><option value="">All</option>
+                    {% for s in stats.filters.seasons %}<option value="{{ s }}" {% if filters.season == s %}selected{% endif %}>{{ s }}</option>{% endfor %}
+                </select></div>
+            <div><label>Crop</label>
+                <select name="best_crop"><option value="">All</option>
+                    {% for c in stats.filters.crops %}<option value="{{ c }}" {% if filters.best_crop == c %}selected{% endif %}>{{ c }}</option>{% endfor %}
+                </select></div>
+            <div><label>Drought risk</label>
+                <select name="drought_risk"><option value="">All</option>
+                    {% for r in ['LOW', 'MEDIUM', 'HIGH'] %}<option value="{{ r }}" {% if filters.drought_risk == r %}selected{% endif %}>{{ r }}</option>{% endfor %}
+                </select></div>
+            <button type="submit">Filter</button>
+        </form>
+
+        {% if page.rows %}
+        <div class="table-wrap">
+        <table>
+            <tr><th>#</th><th>When</th><th>Season / Region</th><th>Temp</th><th>Rain</th><th>Hum.</th><th>pH</th>
+                <th>Water</th><th>Soil</th><th>Risk</th><th>Crop</th><th>Variety</th><th></th></tr>
+            {% for r in page.rows %}
+            <tr>
+                <td>{{ r.id }}</td>
+                <td><time class="localtime" datetime="{{ r.created_at }}">{{ r.created_at }}</time>
+                    {% if not r.is_current_model %}<br><span class="tag old" title="Made with an earlier version of the model/data">older model</span>{% endif %}</td>
+                <td>{{ r.season }}<br><small>{{ r.region }}</small></td>
+                <td>{{ r.temperature }}&deg;C</td><td>{{ r.rainfall|int }} mm</td><td>{{ r.humidity }}%</td><td>{{ r.soil_ph }}</td>
+                <td>{{ r.water_availability.title() }}</td><td>{{ r.soil_type.replace('_', ' ').title() }}</td>
+                <td><span class="badge {{ r.drought_risk }}">{{ r.drought_risk }}</span></td>
+                <td><strong>{{ r.best_crop }}</strong></td><td>{{ r.best_variety }}</td>
+                <td><a class="link" href="{{ url_for('history_detail', entry_id=r.id) }}">Open</a></td>
+            </tr>
+            {% endfor %}
+        </table>
+        </div>
+        <div class="pager">
+            <span>{{ page.total }} record(s) &middot; page {{ page.page }} of {{ page.pages }}</span>
+            <span>
+                {% if page.page > 1 %}<a class="btn light" href="{{ url_for('history_page', page=page.page - 1, **filters) }}">&larr; Newer</a>{% endif %}
+                {% if page.page < page.pages %}<a class="btn light" href="{{ url_for('history_page', page=page.page + 1, **filters) }}">Older &rarr;</a>{% endif %}
+                <a class="btn" href="{{ url_for('history_export', **filters) }}">Download CSV</a>
+            </span>
+        </div>
+        {% else %}
+        <p>No saved runs yet{% if filters.q or filters.season or filters.best_crop or filters.drought_risk %} for this filter{% endif %}.
+           <a class="link" href="{{ url_for('home') }}">Make a recommendation</a> and it will appear here.</p>
+        {% endif %}
+        <p class="hint">Only farm conditions and the recommendation are saved (no names, no IP addresses).
+           Times are shown in your local time. &ldquo;Older model&rdquo; means the model or variety data has changed since that run.</p>
+    </div>
+</div>
+<div class="footer">
+    AI-Based Drought-Resilient Crop/Variety Recommendation System<br>
+    Developed by Harish Beniwal (24BCT0311)
+</div>
+{% include "_time.html" %}
+</body>
+</html>
