@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Record #{{ entry.id }} - Crop Recommendation System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="header">
+    <h1>History Record #{{ entry.id }}</h1>
+    <p>Saved <time class="localtime" datetime="{{ entry.created_at }}">{{ entry.created_at }}</time> &middot; source: {{ entry.source }}</p>
+</div>
+{% include "_nav.html" %}
+<div class="container">
+
+    <div class="card">
+        <h2>🔁 Same input today - same output?</h2>
+        {% if not diffs %}
+        <div class="verdict same"><strong>Same result.</strong> Running these exact inputs through the
+            {% if entry.is_current_model %}current model{% else %}model as it is today{% endif %} gives the same crop, variety, risk and ranking as the saved output.</div>
+        {% else %}
+        <div class="verdict diff"><strong>The result is different now.</strong>
+            {% if not entry.is_current_model %}The model or variety data was changed after this record was saved
+            (saved with version <code>{{ entry.model_version }}</code>, now <code>{{ current_version }}</code>).{% endif %}</div>
+        <div class="table-wrap"><table>
+            <tr><th>What</th><th>Saved then</th><th>Now</th></tr>
+            {% for d in diffs %}<tr><td>{{ d.field }}</td><td>{{ d.old }}</td><td>{{ d.new }}</td></tr>{% endfor %}
+        </table></div>
+        {% endif %}
+        <p class="hint">The model is deterministic: for the same inputs and the same model version the output never changes.
+            It changes only if the model is retrained or the variety data is updated.</p>
+        <form method="POST" action="{{ url_for('history_rerun', entry_id=entry.id) }}" style="display:inline">
+            <button class="btn" type="submit">Run again &amp; save as new record</button></form>
+        <a class="btn light" href="{{ url_for('home', prefill=entry.id) }}">Edit these inputs</a>
+        <a class="btn light" href="{{ url_for('history_page') }}">&larr; Back to history</a>
+    </div>
+
+    <div class="card">
+        <h2>📥 Input</h2>
+        <div class="table-wrap"><table>
+            <tr><th>Season</th><td>{{ season_labels.get(entry.season, entry.season) }}</td>
+                <th>Region</th><td>{{ entry.region }}</td></tr>
+            <tr><th>Temperature</th><td>{{ entry.temperature }} &deg;C</td><th>Rainfall</th><td>{{ entry.rainfall }} mm</td></tr>
+            <tr><th>Humidity</th><td>{{ entry.humidity }} %</td><th>Soil pH</th><td>{{ entry.soil_ph }}</td></tr>
+            <tr><th>Water</th><td>{{ entry.water_availability.title() }}</td><th>Soil type</th><td>{{ entry.soil_type.replace('_', ' ').title() }}</td></tr>
+        </table></div>
+    </div>
+
+    {% set result = entry.result %}
+    <div class="card">
+        <h2>📤 Saved Output</h2>
+        <div class="result-box"><strong>Drought Risk:</strong>
+            <span class="badge {{ result.drought_risk }}">{{ result.drought_risk }}</span> (score {{ result.drought_score }}/{{ result.drought_max }})</div>
+        <div class="result-box"><strong>Recommended Crop:</strong> {{ result.best_crop }}
+            <span class="badge conf-{{ result.confidence }}">{{ result.confidence }} confidence</span></div>
+        <div class="result-box"><strong>Recommended Variety:</strong> {{ result.best_variety }}</div>
+        {% for n in result.notes %}<div class="note">⚠ {{ n }}</div>{% endfor %}
+
+        <h3>Crop Ranking</h3>
+        <div class="table-wrap"><table>
+            <tr><th>#</th><th>Crop</th><th>Suitability</th><th>Drought tolerance</th><th>Final score</th></tr>
+            {% for c in result.crops %}<tr {% if loop.first %}class="best"{% endif %}>
+                <td>{{ loop.index }}</td><td>{{ c.crop }}</td><td>{{ c.suitability }}%</td>
+                <td>{{ c.tolerance.title() }}</td><td>{{ c.final_score }}</td></tr>{% endfor %}
+        </table></div>
+
+        {% if result.varieties %}
+        <h3>Top Varieties for {{ result.best_crop }}</h3>
+        <div class="table-wrap"><table>
+            <tr><th>#</th><th>Variety</th><th>Drought tolerance</th><th>Maturity</th><th>Water need</th><th>Region</th></tr>
+            {% for v in result.varieties %}<tr {% if loop.first %}class="best"{% endif %}>
+                <td>{{ loop.index }}</td><td>{{ v.variety }}</td><td>{{ v.tolerance.title() }}</td>
+                <td>{% if v.maturity_days %}{{ v.maturity_days }} days{% else %}-{% endif %}</td>
+                <td>{{ v.water_requirement.title() }}</td><td>{{ v.region }}</td></tr>{% endfor %}
+        </table></div>
+        {% endif %}
+
+        <h3>Why this recommendation?</h3>
+        <ul class="why">{% for line in result.explanation %}<li>{{ line }}</li>{% endfor %}</ul>
+        <p class="hint">Model version <code>{{ entry.model_version }}</code> &middot; input fingerprint <code>{{ entry.input_hash }}</code></p>
+    </div>
+
+    <div class="card">
+        <h2>📚 All runs with these exact inputs</h2>
+        <div class="table-wrap"><table>
+            <tr><th>#</th><th>When</th><th>Crop</th><th>Variety</th><th>Model</th></tr>
+            {% for r in same %}<tr {% if r.id == entry.id %}class="best"{% endif %}>
+                <td><a class="link" href="{{ url_for('history_detail', entry_id=r.id) }}">{{ r.id }}</a></td>
+                <td><time class="localtime" datetime="{{ r.created_at }}">{{ r.created_at }}</time></td>
+                <td>{{ r.best_crop }}</td><td>{{ r.best_variety }}</td><td><code>{{ r.model_version }}</code></td></tr>{% endfor %}
+        </table></div>
+        {% if same|length > 1 %}
+            {% set crops = same|map(attribute='best_crop')|unique|list %}
+            <p class="hint">{% if crops|length == 1 %}Every run gave the same crop.{% else %}The crop changed between runs - check the model version column.{% endif %}</p>
+        {% endif %}
+    </div>
+</div>
+<div class="footer">
+    AI-Based Drought-Resilient Crop/Variety Recommendation System<br>
+    Developed by Harish Beniwal (24BCT0311)
+</div>
+{% include "_time.html" %}
+</body>
+</html>
