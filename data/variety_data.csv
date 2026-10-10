@@ -1,0 +1,43 @@
+crop,variety,season,drought_tolerance,maturity_days,water_requirement,region,remarks
+Rice,Sahbhagi Dhan,Kharif,high,105,low,All,Drought-tolerant upland rice
+Rice,DRR Dhan 42 (IR64 Drt 1),Kharif,high,120,low,All,Drought-tolerant version of IR64
+Rice,Swarna Shusk Dhan,Kharif,high,115,low,North,Drought-tolerant Swarna type
+Rice,Swarna Purvi Dhan 1,Kharif,high,120,low,East,Drought-tolerant Swarna type
+Rice,Vandana,Kharif,medium,100,low,East;Central,Early upland rice
+Rice,MTU 1010,Kharif;Rabi,low,115,high,South;East,High-yielding; needs good water
+Rice,Swarna (MTU 7029),Kharif,low,140,high,East;South,Long duration; needs good water
+Sorghum,Phule Suchitra,Kharif,high,120,low,West,Drought-tolerant sorghum
+Sorghum,CSV 15,Kharif,medium,110,medium,All,Widely grown Kharif variety
+Sorghum,M 35-1 (Maldandi),Rabi,high,120,low,West;South,Rabi sorghum for residual soil moisture
+Sorghum,Phule Vasudha,Rabi,high,118,low,West,Rabi sorghum
+Pearl Millet,HHB 67 Improved,Kharif,high,65,low,North;West,Very early; escapes terminal drought
+Pearl Millet,RHB 223,Kharif,high,77,low,All,Hybrid for dry regions
+Pearl Millet,ICMV 221,Kharif,high,82,low,West;North,Open-pollinated variety for dry regions
+Finger Millet,PPR 2700 (Vakula),Kharif,high,108,low,South,Drought-tolerant ragi
+Finger Millet,GPU 28,Kharif,high,100,low,South,Blast-resistant ragi
+Chickpea,Pusa JG 16,Rabi,high,110,low,Central,Drought-tolerant chickpea
+Chickpea,DCP 92-3,Rabi,high,145,low,North,Suited to North West Plain Zone
+Chickpea,JG 11,Rabi,high,100,low,South;Central,Short duration; good for dry conditions
+Chickpea,JAKI 9218,Rabi,medium,105,medium,Central;South,Bold-seeded desi chickpea
+Soybean,NRC 136,Kharif,high,100,low,All,Drought-tolerant soybean
+Soybean,JS 335,Kharif,medium,100,medium,Central;West,Popular variety
+Soybean,MAUS 71,Kharif,medium,95,medium,West,Maharashtra variety
+Soybean,JS 9560,Kharif,medium,88,medium,Central,Early maturing
+Cotton,G Cot 23,Kharif,high,160,low,West,Gujarat variety
+Cotton,LRA 5166,Kharif,high,140,low,South,Suited to rainfed conditions
+Cotton,MCU 5,Kharif,medium,150,medium,South,Long-staple type
+Green Gram,IPM 02-3,Kharif;Zaid,high,65,low,All,Short duration
+Green Gram,Pusa Vishal,Zaid;Kharif,high,62,low,North;Central,Short duration summer moong
+Green Gram,SML 668,Kharif;Zaid,high,62,low,North,Short duration
+Groundnut,K 6 (Kadiri 6),Kharif;Rabi,medium,120,medium,South,Popular groundnut variety
+Groundnut,TAG 24,Kharif;Rabi,medium,105,medium,West;South,Early bunch type
+Groundnut,ICGV 91114,Kharif;Rabi,high,105,low,South,Drought-tolerant groundnut
+Groundnut,GG 20,Kharif,medium,105,medium,West,Gujarat variety
+Wheat,C 306,Rabi,high,125,low,North;Central,Classic rainfed/low-water wheat
+Wheat,HI 1544,Rabi,medium,115,medium,Central,Central India wheat
+Wheat,HD 2967,Rabi,medium,150,high,North,High-yielding; needs irrigation
+Mustard,RH 30,Rabi,high,135,low,North,Suited to dry conditions
+Mustard,Varuna (T 59),Rabi,medium,130,medium,North;East,Widely grown mustard
+Mustard,Pusa Bold,Rabi,medium,130,medium,North;West,Bold-seeded mustard
+Barley,RD 2552,Rabi,high,120,low,North,Dry-land barley
+Barley,BH 902,Rabi,high,125,low,North,Barley for dry conditions

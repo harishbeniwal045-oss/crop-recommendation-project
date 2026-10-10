@@ -1,0 +1,73 @@
+{
+  "records": 1140,
+  "crops": 12,
+  "test_accuracy": 0.6798,
+  "season_top1_accuracy": 0.6798,
+  "season_top3_accuracy": 0.9254,
+  "cv_accuracy_mean": 0.636,
+  "per_season": {
+    "Kharif": {
+      "top1": 0.6458,
+      "top3": 0.9167,
+      "test_records": 96
+    },
+    "Rabi": {
+      "top1": 0.5833,
+      "top3": 0.8929,
+      "test_records": 84
+    },
+    "Zaid": {
+      "top1": 0.9167,
+      "top3": 1.0,
+      "test_records": 48
+    }
+  },
+  "feature_importance": {
+    "humidity": 18.2,
+    "temperature": 17.3,
+    "rainfall": 17.3,
+    "soil_type": 13.8,
+    "soil_ph": 12.9,
+    "water_availability": 12.8,
+    "season": 7.7
+  },
+  "model_comparison": [
+    {
+      "model": "Logistic Regression",
+      "top1": 0.6886,
+      "top3": 0.9649,
+      "cv": 0.6237
+    },
+    {
+      "model": "K-Nearest Neighbours",
+      "top1": 0.6184,
+      "top3": 0.943,
+      "cv": 0.6009
+    },
+    {
+      "model": "Gradient Boosting",
+      "top1": 0.6754,
+      "top3": 0.9298,
+      "cv": 0.6605
+    },
+    {
+      "model": "Random Forest",
+      "top1": 0.6798,
+      "top3": 0.9254,
+      "cv": 0.636
+    },
+    {
+      "model": "Naive Bayes",
+      "top1": 0.4737,
+      "top3": 0.8465,
+      "cv": 0.4588
+    },
+    {
+      "model": "Decision Tree",
+      "top1": 0.6053,
+      "top3": 0.7939,
+      "cv": 0.5789
+    }
+  ],
+  "sklearn_version": "1.9.1"
+}

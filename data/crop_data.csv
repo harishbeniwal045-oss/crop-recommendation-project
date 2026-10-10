@@ -1,0 +1,1141 @@
+temperature,rainfall,humidity,soil_ph,water_availability,soil_type,season,crop,drought_tolerance
+33.3,282,41,6.3,low,loamy,Kharif,Sorghum,high
+34.2,493,50,5.9,low,sandy,Kharif,Sorghum,high
+29.5,516,49,7.1,medium,sandy,Kharif,Sorghum,high
+31.5,385,58,7.2,low,loamy,Kharif,Sorghum,high
+31.3,385,39,7.2,low,sandy,Kharif,Sorghum,high
+30.9,418,43,6.3,low,loamy,Kharif,Sorghum,high
+31.6,323,60,6.0,medium,loamy,Kharif,Sorghum,high
+33.1,622,50,7.1,low,loamy,Kharif,Sorghum,high
+29.5,389,35,6.3,low,sandy_loam,Kharif,Sorghum,high
+29.9,530,44,6.5,low,loamy,Kharif,Sorghum,high
+29.8,652,52,6.9,low,loamy,Kharif,Sorghum,high
+34.1,338,44,7.6,low,loamy,Kharif,Sorghum,high
+30.4,584,35,7.3,medium,sandy_loam,Kharif,Sorghum,high
+29.8,358,60,7.4,medium,sandy,Kharif,Sorghum,high
+33.4,433,60,6.7,medium,sandy,Kharif,Sorghum,high
+29.6,500,41,6.9,medium,sandy_loam,Kharif,Sorghum,high
+29.4,677,48,6.0,low,sandy,Kharif,Sorghum,high
+28.8,337,53,6.9,medium,sandy_loam,Kharif,Sorghum,high
+32.9,462,40,6.8,low,loamy,Kharif,Sorghum,high
+34.0,549,49,6.3,medium,sandy,Kharif,Sorghum,high
+30.1,336,33,7.1,medium,loamy,Kharif,Sorghum,high
+34.4,478,36,7.0,low,sandy,Kharif,Sorghum,high
+30.8,338,61,7.5,low,loamy,Kharif,Sorghum,high
+30.4,280,60,7.4,medium,sandy,Kharif,Sorghum,high
+27.9,628,60,6.0,medium,sandy,Kharif,Sorghum,high
+36.4,488,37,7.0,low,sandy_loam,Kharif,Sorghum,high
+32.3,518,61,7.5,low,loamy,Kharif,Sorghum,high
+30.3,676,52,6.6,medium,sandy,Kharif,Sorghum,high
+29.7,298,34,6.8,low,sandy,Kharif,Sorghum,high
+28.0,528,40,7.5,medium,sandy,Kharif,Sorghum,high
+32.1,385,47,6.8,medium,sandy,Kharif,Sorghum,high
+34.6,600,39,6.0,medium,sandy_loam,Kharif,Sorghum,high
+31.3,462,54,7.1,low,sandy,Kharif,Sorghum,high
+31.1,410,58,6.3,low,loamy,Kharif,Sorghum,high
+31.5,443,41,6.3,low,sandy_loam,Kharif,Sorghum,high
+34.9,620,36,7.0,low,sandy,Kharif,Sorghum,high
+36.0,617,38,6.7,low,sandy_loam,Kharif,Sorghum,high
+35.7,339,33,6.6,medium,sandy_loam,Kharif,Sorghum,high
+31.3,661,62,6.8,medium,sandy,Kharif,Sorghum,high
+29.1,360,35,7.2,low,loamy,Kharif,Sorghum,high
+30.3,292,47,7.5,low,sandy,Kharif,Sorghum,high
+36.3,305,38,6.9,low,sandy_loam,Kharif,Sorghum,high
+28.5,633,40,6.9,low,sandy_loam,Kharif,Sorghum,high
+33.5,501,42,6.3,medium,sandy,Kharif,Sorghum,high
+29.8,325,52,6.7,low,sandy,Kharif,Sorghum,high
+31.6,677,62,6.0,low,loamy,Kharif,Sorghum,high
+29.8,651,59,7.4,medium,sandy_loam,Kharif,Sorghum,high
+28.8,611,53,6.9,low,loamy,Kharif,Sorghum,high
+34.9,394,52,7.5,low,sandy_loam,Kharif,Sorghum,high
+28.4,315,49,6.4,low,loamy,Kharif,Sorghum,high
+30.5,551,58,6.8,medium,sandy,Kharif,Sorghum,high
+28.2,444,41,5.9,low,loamy,Kharif,Sorghum,high
+36.5,338,46,7.1,low,sandy,Kharif,Sorghum,high
+28.1,631,59,6.8,medium,loamy,Kharif,Sorghum,high
+32.5,446,34,6.5,low,sandy_loam,Kharif,Sorghum,high
+29.3,373,36,7.2,medium,loamy,Kharif,Sorghum,high
+34.3,648,40,6.2,low,sandy_loam,Kharif,Sorghum,high
+27.6,571,43,7.5,low,sandy_loam,Kharif,Sorghum,high
+28.8,557,44,5.9,medium,sandy,Kharif,Sorghum,high
+29.2,645,43,7.3,low,sandy,Kharif,Sorghum,high
+17.5,79,43,7.8,medium,clay,Rabi,Sorghum,high
+24.6,127,61,7.1,low,loamy,Rabi,Sorghum,high
+27.4,95,50,8.1,low,loamy,Rabi,Sorghum,high
+24.1,114,56,6.9,low,clay,Rabi,Sorghum,high
+27.6,78,34,6.9,low,clay,Rabi,Sorghum,high
+22.2,254,60,7.3,low,clay,Rabi,Sorghum,high
+23.1,189,42,7.5,low,loamy,Rabi,Sorghum,high
+22.1,252,53,7.9,medium,clay,Rabi,Sorghum,high
+23.6,34,41,6.8,medium,clay,Rabi,Sorghum,high
+22.3,191,48,7.7,low,loamy,Rabi,Sorghum,high
+20.5,188,51,6.1,low,clay,Rabi,Sorghum,high
+19.8,80,34,6.4,medium,loamy,Rabi,Sorghum,high
+22.5,240,50,7.5,medium,clay,Rabi,Sorghum,high
+21.8,68,53,7.9,low,clay,Rabi,Sorghum,high
+19.7,221,53,6.9,low,loamy,Rabi,Sorghum,high
+22.5,220,52,8.1,medium,clay,Rabi,Sorghum,high
+24.3,201,48,7.8,medium,loamy,Rabi,Sorghum,high
+25.8,144,41,6.4,medium,clay,Rabi,Sorghum,high
+24.5,98,35,6.5,medium,clay,Rabi,Sorghum,high
+20.9,159,37,6.4,low,loamy,Rabi,Sorghum,high
+17.9,129,49,6.8,low,clay,Rabi,Sorghum,high
+21.7,213,60,5.9,medium,clay,Rabi,Sorghum,high
+17.3,116,55,7.8,medium,loamy,Rabi,Sorghum,high
+22.9,97,47,6.7,medium,loamy,Rabi,Sorghum,high
+26.9,247,61,7.1,medium,loamy,Rabi,Sorghum,high
+18.2,133,58,6.3,medium,clay,Rabi,Sorghum,high
+21.0,139,43,7.9,medium,clay,Rabi,Sorghum,high
+20.1,53,34,7.1,medium,loamy,Rabi,Sorghum,high
+24.7,215,52,7.6,low,loamy,Rabi,Sorghum,high
+26.9,178,40,6.9,low,loamy,Rabi,Sorghum,high
+22.6,93,44,7.2,low,loamy,Rabi,Sorghum,high
+28.4,59,34,6.6,medium,clay,Rabi,Sorghum,high
+28.1,80,50,7.8,low,loamy,Rabi,Sorghum,high
+25.3,104,53,7.7,low,clay,Rabi,Sorghum,high
+23.4,187,35,7.3,low,clay,Rabi,Sorghum,high
+26.7,58,61,7.3,medium,loamy,Rabi,Sorghum,high
+22.3,204,61,6.5,medium,clay,Rabi,Sorghum,high
+22.3,204,41,7.8,low,clay,Rabi,Sorghum,high
+27.4,91,46,7.3,medium,clay,Rabi,Sorghum,high
+17.5,231,38,6.3,medium,clay,Rabi,Sorghum,high
+20.4,172,59,7.1,low,loamy,Rabi,Sorghum,high
+20.0,128,49,6.4,medium,clay,Rabi,Sorghum,high
+22.4,38,42,6.8,low,clay,Rabi,Sorghum,high
+24.9,120,49,6.6,medium,clay,Rabi,Sorghum,high
+25.4,97,40,6.1,low,clay,Rabi,Sorghum,high
+18.6,158,55,6.3,low,clay,Rabi,Sorghum,high
+20.4,171,55,7.2,low,loamy,Rabi,Sorghum,high
+20.6,118,42,7.5,low,clay,Rabi,Sorghum,high
+17.7,47,41,8.0,medium,loamy,Rabi,Sorghum,high
+27.3,167,47,6.9,low,loamy,Rabi,Sorghum,high
+20.1,234,36,6.0,medium,loamy,Rabi,Sorghum,high
+23.9,193,37,7.7,medium,loamy,Rabi,Sorghum,high
+28.7,61,55,7.2,low,clay,Rabi,Sorghum,high
+22.4,137,58,8.1,medium,loamy,Rabi,Sorghum,high
+24.3,206,60,6.3,low,clay,Rabi,Sorghum,high
+24.9,70,38,6.0,low,clay,Rabi,Sorghum,high
+22.4,172,41,6.4,medium,clay,Rabi,Sorghum,high
+18.0,88,41,7.7,low,clay,Rabi,Sorghum,high
+18.5,86,37,6.5,low,loamy,Rabi,Sorghum,high
+17.9,218,50,7.8,medium,clay,Rabi,Sorghum,high
+30.5,466,48,7.8,medium,sandy_loam,Kharif,Pearl Millet,high
+30.1,240,41,6.5,medium,sandy,Kharif,Pearl Millet,high
+30.2,561,52,7.1,low,loamy,Kharif,Pearl Millet,high
+37.0,427,50,6.2,medium,sandy_loam,Kharif,Pearl Millet,high
+31.0,430,46,6.9,low,sandy_loam,Kharif,Pearl Millet,high
+32.6,342,47,7.6,medium,sandy_loam,Kharif,Pearl Millet,high
+35.8,326,55,7.6,low,sandy_loam,Kharif,Pearl Millet,high
+30.2,314,31,7.5,low,loamy,Kharif,Pearl Millet,high
+37.4,387,30,6.9,medium,loamy,Kharif,Pearl Millet,high
+33.5,244,36,6.1,medium,sandy_loam,Kharif,Pearl Millet,high
+37.5,395,29,7.2,low,loamy,Kharif,Pearl Millet,high
+30.8,418,44,6.1,low,sandy_loam,Kharif,Pearl Millet,high
+38.1,451,32,7.8,medium,loamy,Kharif,Pearl Millet,high
+35.9,371,42,6.8,medium,loamy,Kharif,Pearl Millet,high
+30.7,292,45,7.4,low,sandy,Kharif,Pearl Millet,high
+31.9,501,40,7.8,medium,sandy,Kharif,Pearl Millet,high
+32.0,330,45,7.9,medium,sandy,Kharif,Pearl Millet,high
+33.5,395,38,7.4,medium,sandy_loam,Kharif,Pearl Millet,high
+38.0,529,56,6.4,medium,sandy,Kharif,Pearl Millet,high
+37.3,369,37,6.8,medium,sandy_loam,Kharif,Pearl Millet,high
+38.5,502,47,6.2,low,sandy,Kharif,Pearl Millet,high
+34.0,431,53,7.7,medium,sandy,Kharif,Pearl Millet,high
+34.2,385,49,6.7,low,sandy,Kharif,Pearl Millet,high
+33.7,563,38,7.3,low,sandy_loam,Kharif,Pearl Millet,high
+37.3,525,39,6.5,medium,loamy,Kharif,Pearl Millet,high
+29.7,250,46,7.8,low,loamy,Kharif,Pearl Millet,high
+30.2,566,50,7.3,low,sandy_loam,Kharif,Pearl Millet,high
+30.9,330,29,6.5,low,sandy_loam,Kharif,Pearl Millet,high
+32.7,376,35,6.7,low,sandy,Kharif,Pearl Millet,high
+31.0,438,39,7.3,medium,loamy,Kharif,Pearl Millet,high
+30.7,386,35,6.4,low,sandy_loam,Kharif,Pearl Millet,high
+37.7,462,33,6.8,medium,loamy,Kharif,Pearl Millet,high
+32.1,561,48,6.8,medium,sandy,Kharif,Pearl Millet,high
+38.6,523,31,6.7,medium,loamy,Kharif,Pearl Millet,high
+32.1,469,29,7.6,medium,sandy_loam,Kharif,Pearl Millet,high
+29.4,527,51,7.9,medium,sandy_loam,Kharif,Pearl Millet,high
+36.6,306,51,6.3,low,loamy,Kharif,Pearl Millet,high
+31.7,489,50,7.3,low,loamy,Kharif,Pearl Millet,high
+30.3,444,29,7.5,low,loamy,Kharif,Pearl Millet,high
+32.7,272,54,6.5,medium,sandy,Kharif,Pearl Millet,high
+31.2,500,53,6.6,medium,sandy,Kharif,Pearl Millet,high
+31.7,513,42,7.5,medium,sandy,Kharif,Pearl Millet,high
+33.7,252,50,6.3,medium,loamy,Kharif,Pearl Millet,high
+32.8,501,28,7.0,medium,sandy_loam,Kharif,Pearl Millet,high
+35.6,460,45,7.6,medium,sandy,Kharif,Pearl Millet,high
+35.6,390,46,7.8,medium,loamy,Kharif,Pearl Millet,high
+31.4,248,52,7.8,medium,loamy,Kharif,Pearl Millet,high
+33.1,275,55,6.5,medium,sandy,Kharif,Pearl Millet,high
+30.3,535,32,6.8,medium,loamy,Kharif,Pearl Millet,high
+36.2,280,40,6.1,medium,loamy,Kharif,Pearl Millet,high
+33.1,557,29,6.6,medium,sandy_loam,Kharif,Pearl Millet,high
+38.2,524,31,7.3,medium,sandy,Kharif,Pearl Millet,high
+33.1,292,32,7.6,medium,sandy,Kharif,Pearl Millet,high
+35.5,449,45,5.9,medium,sandy,Kharif,Pearl Millet,high
+38.5,500,34,7.6,low,loamy,Kharif,Pearl Millet,high
+31.4,529,38,6.2,low,sandy_loam,Kharif,Pearl Millet,high
+37.3,276,32,6.4,low,sandy,Kharif,Pearl Millet,high
+35.5,235,28,7.5,low,loamy,Kharif,Pearl Millet,high
+32.4,287,30,7.4,low,loamy,Kharif,Pearl Millet,high
+29.9,382,38,7.1,medium,loamy,Kharif,Pearl Millet,high
+31.8,145,44,8.0,medium,sandy_loam,Zaid,Pearl Millet,high
+36.7,43,52,7.9,medium,sandy,Zaid,Pearl Millet,high
+34.9,196,25,6.5,low,sandy,Zaid,Pearl Millet,high
+30.7,147,40,7.6,medium,sandy_loam,Zaid,Pearl Millet,high
+34.5,143,26,7.6,low,sandy_loam,Zaid,Pearl Millet,high
+34.4,78,33,7.2,medium,sandy,Zaid,Pearl Millet,high
+32.8,92,30,8.0,medium,sandy,Zaid,Pearl Millet,high
+30.3,53,36,7.7,medium,sandy,Zaid,Pearl Millet,high
+35.7,140,39,7.0,low,sandy_loam,Zaid,Pearl Millet,high
+33.3,154,45,7.9,low,sandy_loam,Zaid,Pearl Millet,high
+36.2,99,40,6.8,medium,sandy,Zaid,Pearl Millet,high
+39.0,99,39,6.6,medium,sandy,Zaid,Pearl Millet,high
+38.6,185,51,7.8,low,sandy_loam,Zaid,Pearl Millet,high
+29.5,86,45,8.0,medium,sandy,Zaid,Pearl Millet,high
+31.3,63,42,6.5,low,sandy,Zaid,Pearl Millet,high
+37.9,75,35,7.0,medium,sandy_loam,Zaid,Pearl Millet,high
+37.6,173,39,6.5,low,sandy,Zaid,Pearl Millet,high
+31.0,146,43,6.9,medium,sandy_loam,Zaid,Pearl Millet,high
+36.2,110,29,7.3,medium,sandy_loam,Zaid,Pearl Millet,high
+30.5,156,40,7.3,medium,sandy,Zaid,Pearl Millet,high
+31.8,209,25,6.7,low,sandy,Zaid,Pearl Millet,high
+38.1,88,26,7.2,medium,sandy,Zaid,Pearl Millet,high
+30.7,131,30,7.4,medium,sandy,Zaid,Pearl Millet,high
+33.8,167,36,7.2,low,sandy_loam,Zaid,Pearl Millet,high
+35.9,138,44,7.1,low,sandy_loam,Zaid,Pearl Millet,high
+29.4,95,46,7.5,medium,sandy,Zaid,Pearl Millet,high
+34.3,56,36,7.1,low,sandy_loam,Zaid,Pearl Millet,high
+39.3,168,29,7.7,low,sandy,Zaid,Pearl Millet,high
+35.4,72,46,7.0,low,sandy,Zaid,Pearl Millet,high
+30.4,83,28,6.6,low,sandy,Zaid,Pearl Millet,high
+40.2,147,36,7.4,medium,sandy_loam,Zaid,Pearl Millet,high
+39.2,147,27,6.5,medium,sandy_loam,Zaid,Pearl Millet,high
+38.4,141,33,6.5,medium,sandy_loam,Zaid,Pearl Millet,high
+29.6,102,31,7.5,low,sandy_loam,Zaid,Pearl Millet,high
+34.6,134,46,7.9,medium,sandy,Zaid,Pearl Millet,high
+32.9,121,27,6.5,low,sandy_loam,Zaid,Pearl Millet,high
+40.6,53,42,6.4,medium,sandy_loam,Zaid,Pearl Millet,high
+35.3,144,34,8.0,medium,sandy_loam,Zaid,Pearl Millet,high
+38.2,156,25,7.5,medium,sandy,Zaid,Pearl Millet,high
+33.0,135,34,6.8,low,sandy_loam,Zaid,Pearl Millet,high
+30.1,153,50,6.9,medium,sandy,Zaid,Pearl Millet,high
+36.1,201,32,7.0,medium,sandy,Zaid,Pearl Millet,high
+37.0,182,44,7.6,low,sandy_loam,Zaid,Pearl Millet,high
+35.1,41,32,8.0,medium,sandy_loam,Zaid,Pearl Millet,high
+31.4,212,27,6.9,low,sandy,Zaid,Pearl Millet,high
+36.9,190,41,7.4,low,sandy,Zaid,Pearl Millet,high
+31.3,159,41,8.0,medium,sandy,Zaid,Pearl Millet,high
+34.0,156,30,7.2,medium,sandy_loam,Zaid,Pearl Millet,high
+31.9,80,51,7.7,low,sandy_loam,Zaid,Pearl Millet,high
+37.1,137,36,7.7,medium,sandy_loam,Zaid,Pearl Millet,high
+40.4,180,46,6.6,medium,sandy,Zaid,Pearl Millet,high
+36.6,190,39,6.6,low,sandy_loam,Zaid,Pearl Millet,high
+30.2,66,36,7.3,medium,sandy,Zaid,Pearl Millet,high
+40.2,77,36,7.0,low,sandy_loam,Zaid,Pearl Millet,high
+29.8,125,30,8.1,medium,sandy,Zaid,Pearl Millet,high
+29.5,200,47,7.5,low,sandy,Zaid,Pearl Millet,high
+29.6,198,37,7.8,medium,sandy_loam,Zaid,Pearl Millet,high
+36.3,196,24,6.8,low,sandy_loam,Zaid,Pearl Millet,high
+30.5,88,32,6.5,medium,sandy_loam,Zaid,Pearl Millet,high
+29.9,184,37,7.3,low,sandy,Zaid,Pearl Millet,high
+26.8,469,53,6.4,low,sandy_loam,Kharif,Finger Millet,high
+28.7,635,71,6.3,low,loamy,Kharif,Finger Millet,high
+31.5,488,54,6.0,low,loamy,Kharif,Finger Millet,high
+30.8,628,64,6.5,medium,sandy_loam,Kharif,Finger Millet,high
+24.8,721,67,5.7,medium,loamy,Kharif,Finger Millet,high
+29.6,845,45,6.7,medium,sandy_loam,Kharif,Finger Millet,high
+26.8,488,49,5.5,medium,loamy,Kharif,Finger Millet,high
+32.5,720,50,6.7,low,loamy,Kharif,Finger Millet,high
+27.3,830,68,6.0,low,loamy,Kharif,Finger Millet,high
+28.0,654,56,7.0,medium,sandy_loam,Kharif,Finger Millet,high
+28.5,699,70,6.3,low,loamy,Kharif,Finger Millet,high
+25.1,748,67,6.3,medium,sandy_loam,Kharif,Finger Millet,high
+25.1,775,52,6.4,medium,sandy_loam,Kharif,Finger Millet,high
+30.0,631,44,6.9,medium,loamy,Kharif,Finger Millet,high
+26.7,923,70,5.5,medium,loamy,Kharif,Finger Millet,high
+28.6,816,48,5.4,medium,sandy_loam,Kharif,Finger Millet,high
+25.5,578,62,6.0,low,sandy_loam,Kharif,Finger Millet,high
+30.0,908,54,6.7,low,loamy,Kharif,Finger Millet,high
+27.7,769,50,5.6,low,loamy,Kharif,Finger Millet,high
+28.6,892,46,6.7,medium,sandy_loam,Kharif,Finger Millet,high
+32.5,601,70,6.2,low,sandy_loam,Kharif,Finger Millet,high
+31.4,678,69,6.2,low,loamy,Kharif,Finger Millet,high
+29.9,797,59,5.9,medium,sandy_loam,Kharif,Finger Millet,high
+30.2,898,61,6.8,low,sandy_loam,Kharif,Finger Millet,high
+32.4,836,50,6.2,medium,loamy,Kharif,Finger Millet,high
+28.2,924,47,6.9,low,loamy,Kharif,Finger Millet,high
+27.7,801,57,6.1,medium,sandy_loam,Kharif,Finger Millet,high
+25.5,615,45,6.2,medium,sandy_loam,Kharif,Finger Millet,high
+31.6,830,62,5.7,low,loamy,Kharif,Finger Millet,high
+28.5,871,67,6.3,medium,sandy_loam,Kharif,Finger Millet,high
+25.8,902,50,7.0,medium,sandy_loam,Kharif,Finger Millet,high
+26.5,763,59,5.6,medium,sandy_loam,Kharif,Finger Millet,high
+28.5,546,70,5.6,medium,sandy_loam,Kharif,Finger Millet,high
+31.1,481,44,6.5,medium,sandy_loam,Kharif,Finger Millet,high
+30.7,661,62,6.2,medium,loamy,Kharif,Finger Millet,high
+28.4,841,63,5.9,low,sandy_loam,Kharif,Finger Millet,high
+25.7,661,56,6.0,low,loamy,Kharif,Finger Millet,high
+31.4,616,72,6.0,medium,sandy_loam,Kharif,Finger Millet,high
+30.6,707,46,5.8,low,loamy,Kharif,Finger Millet,high
+28.1,533,44,7.0,medium,sandy_loam,Kharif,Finger Millet,high
+32.3,887,67,7.0,medium,sandy_loam,Kharif,Finger Millet,high
+30.6,699,58,6.2,medium,loamy,Kharif,Finger Millet,high
+24.6,907,58,7.1,low,loamy,Kharif,Finger Millet,high
+24.8,599,60,6.8,medium,loamy,Kharif,Finger Millet,high
+28.8,861,55,6.9,medium,loamy,Kharif,Finger Millet,high
+27.4,654,60,5.7,medium,sandy_loam,Kharif,Finger Millet,high
+27.6,677,59,6.8,low,sandy_loam,Kharif,Finger Millet,high
+32.4,651,66,6.0,medium,sandy_loam,Kharif,Finger Millet,high
+26.1,704,58,5.5,low,loamy,Kharif,Finger Millet,high
+31.0,709,47,6.9,low,loamy,Kharif,Finger Millet,high
+32.0,616,54,6.5,medium,loamy,Kharif,Finger Millet,high
+28.6,705,57,6.4,medium,sandy_loam,Kharif,Finger Millet,high
+27.4,781,71,6.4,low,loamy,Kharif,Finger Millet,high
+26.6,772,71,6.4,low,sandy_loam,Kharif,Finger Millet,high
+29.2,547,61,6.5,medium,sandy_loam,Kharif,Finger Millet,high
+31.1,580,60,6.6,low,sandy_loam,Kharif,Finger Millet,high
+28.0,662,55,5.7,medium,sandy_loam,Kharif,Finger Millet,high
+30.2,709,59,7.1,medium,loamy,Kharif,Finger Millet,high
+27.0,548,69,6.0,medium,loamy,Kharif,Finger Millet,high
+29.4,557,50,6.4,low,loamy,Kharif,Finger Millet,high
+24.8,200,52,7.0,medium,loamy,Rabi,Chickpea,high
+21.8,251,53,6.5,medium,loamy,Rabi,Chickpea,high
+25.4,255,56,6.5,medium,clay,Rabi,Chickpea,high
+15.1,248,50,7.6,low,sandy_loam,Rabi,Chickpea,high
+25.6,105,47,6.5,low,clay,Rabi,Chickpea,high
+24.4,98,29,7.9,low,clay,Rabi,Chickpea,high
+17.3,67,39,6.9,low,sandy_loam,Rabi,Chickpea,high
+27.5,260,33,7.4,medium,loamy,Rabi,Chickpea,high
+23.1,211,38,6.5,low,sandy_loam,Rabi,Chickpea,high
+23.1,96,53,7.8,low,sandy_loam,Rabi,Chickpea,high
+19.9,229,60,5.9,medium,loamy,Rabi,Chickpea,high
+16.6,210,58,6.5,low,sandy_loam,Rabi,Chickpea,high
+18.2,178,60,6.6,medium,clay,Rabi,Chickpea,high
+21.6,154,60,7.8,medium,loamy,Rabi,Chickpea,high
+16.7,70,33,6.9,medium,clay,Rabi,Chickpea,high
+16.6,207,55,7.2,low,sandy_loam,Rabi,Chickpea,high
+22.5,186,42,6.8,medium,sandy_loam,Rabi,Chickpea,high
+19.6,66,62,6.9,low,sandy_loam,Rabi,Chickpea,high
+17.7,97,54,8.1,medium,clay,Rabi,Chickpea,high
+24.1,47,50,7.4,low,clay,Rabi,Chickpea,high
+15.7,112,42,7.0,medium,clay,Rabi,Chickpea,high
+15.7,247,38,7.3,low,sandy_loam,Rabi,Chickpea,high
+20.7,145,62,6.7,medium,clay,Rabi,Chickpea,high
+25.2,227,54,7.4,low,clay,Rabi,Chickpea,high
+20.3,200,30,7.1,low,clay,Rabi,Chickpea,high
+26.6,89,46,6.2,medium,sandy_loam,Rabi,Chickpea,high
+23.5,203,45,7.9,medium,sandy_loam,Rabi,Chickpea,high
+20.4,158,43,6.0,medium,clay,Rabi,Chickpea,high
+25.3,204,41,7.7,low,clay,Rabi,Chickpea,high
+15.1,138,52,7.1,low,sandy_loam,Rabi,Chickpea,high
+27.8,149,38,6.3,low,clay,Rabi,Chickpea,high
+27.7,187,42,8.1,medium,loamy,Rabi,Chickpea,high
+26.1,245,41,7.4,low,clay,Rabi,Chickpea,high
+26.0,71,62,6.8,low,clay,Rabi,Chickpea,high
+27.7,229,54,8.1,medium,clay,Rabi,Chickpea,high
+24.0,138,41,6.4,medium,loamy,Rabi,Chickpea,high
+16.2,86,58,7.6,low,clay,Rabi,Chickpea,high
+19.9,214,58,5.9,low,sandy_loam,Rabi,Chickpea,high
+15.4,52,48,7.5,low,sandy_loam,Rabi,Chickpea,high
+24.3,133,36,6.3,low,sandy_loam,Rabi,Chickpea,high
+21.1,109,56,7.5,medium,clay,Rabi,Chickpea,high
+22.4,193,39,6.5,low,clay,Rabi,Chickpea,high
+21.3,136,37,7.1,low,clay,Rabi,Chickpea,high
+23.5,167,29,6.6,medium,clay,Rabi,Chickpea,high
+18.5,137,33,6.7,medium,sandy_loam,Rabi,Chickpea,high
+25.9,111,52,7.7,low,clay,Rabi,Chickpea,high
+19.8,137,46,6.7,medium,sandy_loam,Rabi,Chickpea,high
+18.6,62,43,6.7,low,sandy_loam,Rabi,Chickpea,high
+17.8,193,49,7.9,low,clay,Rabi,Chickpea,high
+24.1,168,44,7.9,medium,loamy,Rabi,Chickpea,high
+27.4,48,60,8.1,low,clay,Rabi,Chickpea,high
+28.0,150,36,7.2,low,loamy,Rabi,Chickpea,high
+26.8,166,55,6.7,medium,loamy,Rabi,Chickpea,high
+17.7,158,45,6.1,medium,loamy,Rabi,Chickpea,high
+26.8,127,42,7.1,low,clay,Rabi,Chickpea,high
+16.1,102,60,7.2,medium,loamy,Rabi,Chickpea,high
+16.2,118,41,7.8,medium,clay,Rabi,Chickpea,high
+23.2,196,37,7.7,medium,loamy,Rabi,Chickpea,high
+16.4,220,33,7.5,medium,sandy_loam,Rabi,Chickpea,high
+26.8,164,50,6.0,low,sandy_loam,Rabi,Chickpea,high
+35.1,593,64,6.6,low,sandy_loam,Kharif,Green Gram,high
+32.9,326,55,6.5,medium,loamy,Kharif,Green Gram,high
+26.5,538,52,5.9,medium,loamy,Kharif,Green Gram,high
+26.5,652,61,7.3,low,sandy_loam,Kharif,Green Gram,high
+34.9,535,46,7.0,medium,loamy,Kharif,Green Gram,high
+28.8,483,51,6.6,low,sandy_loam,Kharif,Green Gram,high
+29.1,658,40,7.6,low,sandy_loam,Kharif,Green Gram,high
+30.1,475,54,7.0,low,sandy_loam,Kharif,Green Gram,high
+31.0,498,65,6.9,low,sandy_loam,Kharif,Green Gram,high
+28.5,688,62,6.9,medium,sandy_loam,Kharif,Green Gram,high
+34.9,600,47,6.8,low,sandy_loam,Kharif,Green Gram,high
+35.0,450,71,6.9,medium,sandy_loam,Kharif,Green Gram,high
+29.1,551,57,7.4,medium,loamy,Kharif,Green Gram,high
+33.4,379,72,7.1,medium,sandy_loam,Kharif,Green Gram,high
+27.3,416,40,6.9,medium,loamy,Kharif,Green Gram,high
+26.6,433,72,6.7,medium,loamy,Kharif,Green Gram,high
+30.4,598,61,6.0,medium,sandy_loam,Kharif,Green Gram,high
+33.0,355,43,7.1,low,loamy,Kharif,Green Gram,high
+29.3,365,38,6.4,medium,loamy,Kharif,Green Gram,high
+27.3,357,53,6.8,medium,sandy_loam,Kharif,Green Gram,high
+26.6,466,41,6.9,medium,loamy,Kharif,Green Gram,high
+26.5,490,65,7.1,low,sandy_loam,Kharif,Green Gram,high
+32.7,391,47,6.3,low,sandy_loam,Kharif,Green Gram,high
+27.9,434,48,7.2,medium,loamy,Kharif,Green Gram,high
+35.1,615,55,7.0,medium,sandy_loam,Kharif,Green Gram,high
+27.6,325,51,7.3,medium,loamy,Kharif,Green Gram,high
+30.4,497,66,7.0,low,loamy,Kharif,Green Gram,high
+29.3,707,45,6.4,medium,loamy,Kharif,Green Gram,high
+29.1,604,55,6.9,low,loamy,Kharif,Green Gram,high
+29.8,653,51,6.1,low,sandy_loam,Kharif,Green Gram,high
+32.7,545,71,6.7,low,loamy,Kharif,Green Gram,high
+33.8,660,40,7.4,medium,loamy,Kharif,Green Gram,high
+27.7,445,46,6.1,medium,loamy,Kharif,Green Gram,high
+27.0,724,54,6.6,medium,sandy_loam,Kharif,Green Gram,high
+33.7,468,69,6.8,low,sandy_loam,Kharif,Green Gram,high
+33.5,589,50,7.0,low,loamy,Kharif,Green Gram,high
+35.3,457,65,6.1,low,loamy,Kharif,Green Gram,high
+28.4,625,57,7.1,low,loamy,Kharif,Green Gram,high
+29.8,510,61,7.1,low,loamy,Kharif,Green Gram,high
+35.6,518,48,7.5,low,sandy_loam,Kharif,Green Gram,high
+34.1,618,50,6.5,low,loamy,Kharif,Green Gram,high
+29.6,362,63,6.7,low,loamy,Kharif,Green Gram,high
+26.8,611,38,6.5,low,sandy_loam,Kharif,Green Gram,high
+35.0,623,56,6.8,medium,loamy,Kharif,Green Gram,high
+35.3,416,52,6.2,medium,loamy,Kharif,Green Gram,high
+26.6,571,44,6.9,medium,sandy_loam,Kharif,Green Gram,high
+32.9,406,64,7.3,low,sandy_loam,Kharif,Green Gram,high
+33.8,540,50,6.2,low,loamy,Kharif,Green Gram,high
+32.6,521,71,6.4,medium,loamy,Kharif,Green Gram,high
+31.8,463,67,7.0,medium,sandy_loam,Kharif,Green Gram,high
+32.6,449,46,6.1,medium,sandy_loam,Kharif,Green Gram,high
+31.1,492,42,6.5,low,loamy,Kharif,Green Gram,high
+32.3,604,60,7.6,low,loamy,Kharif,Green Gram,high
+29.0,398,67,7.0,medium,sandy_loam,Kharif,Green Gram,high
+30.9,401,51,6.9,medium,loamy,Kharif,Green Gram,high
+32.7,491,67,6.7,low,sandy_loam,Kharif,Green Gram,high
+33.7,412,39,6.3,medium,sandy_loam,Kharif,Green Gram,high
+33.6,552,64,6.7,low,sandy_loam,Kharif,Green Gram,high
+28.8,543,72,6.8,low,loamy,Kharif,Green Gram,high
+31.4,724,41,7.3,low,loamy,Kharif,Green Gram,high
+37.3,44,37,7.4,low,loamy,Zaid,Green Gram,high
+37.2,58,56,6.2,medium,loamy,Zaid,Green Gram,high
+29.1,62,35,6.2,low,loamy,Zaid,Green Gram,high
+33.4,142,33,7.6,medium,loamy,Zaid,Green Gram,high
+33.8,204,46,7.4,low,sandy_loam,Zaid,Green Gram,high
+38.4,175,60,7.6,low,sandy_loam,Zaid,Green Gram,high
+30.1,162,56,7.2,medium,loamy,Zaid,Green Gram,high
+28.8,148,49,6.5,low,sandy_loam,Zaid,Green Gram,high
+31.9,168,52,7.4,medium,loamy,Zaid,Green Gram,high
+31.0,38,55,7.2,medium,loamy,Zaid,Green Gram,high
+37.1,176,41,7.6,low,loamy,Zaid,Green Gram,high
+30.3,182,39,6.9,medium,loamy,Zaid,Green Gram,high
+37.6,171,29,7.0,medium,sandy_loam,Zaid,Green Gram,high
+28.6,187,43,5.9,medium,sandy_loam,Zaid,Green Gram,high
+38.8,196,58,6.4,medium,sandy_loam,Zaid,Green Gram,high
+34.8,82,41,7.5,low,sandy_loam,Zaid,Green Gram,high
+31.8,91,52,6.3,low,sandy_loam,Zaid,Green Gram,high
+27.2,121,32,6.3,medium,sandy_loam,Zaid,Green Gram,high
+27.3,98,32,7.4,low,loamy,Zaid,Green Gram,high
+28.0,105,53,6.1,medium,loamy,Zaid,Green Gram,high
+37.4,62,55,7.2,low,sandy_loam,Zaid,Green Gram,high
+28.0,136,49,6.2,medium,sandy_loam,Zaid,Green Gram,high
+34.5,64,42,7.1,low,sandy_loam,Zaid,Green Gram,high
+37.6,62,32,7.2,medium,loamy,Zaid,Green Gram,high
+30.8,62,37,6.0,medium,sandy_loam,Zaid,Green Gram,high
+37.0,153,38,6.8,low,loamy,Zaid,Green Gram,high
+30.6,47,59,7.5,medium,loamy,Zaid,Green Gram,high
+28.5,125,48,6.8,low,loamy,Zaid,Green Gram,high
+38.0,61,58,6.9,medium,sandy_loam,Zaid,Green Gram,high
+36.0,204,54,5.9,low,sandy_loam,Zaid,Green Gram,high
+30.2,45,30,7.3,medium,loamy,Zaid,Green Gram,high
+32.1,108,50,6.8,low,loamy,Zaid,Green Gram,high
+28.2,52,60,7.6,low,loamy,Zaid,Green Gram,high
+31.7,148,57,7.1,low,loamy,Zaid,Green Gram,high
+35.3,165,57,6.0,low,loamy,Zaid,Green Gram,high
+28.5,145,30,7.0,low,sandy_loam,Zaid,Green Gram,high
+27.3,62,28,6.7,medium,loamy,Zaid,Green Gram,high
+29.1,60,55,6.3,low,sandy_loam,Zaid,Green Gram,high
+31.1,113,46,6.3,low,loamy,Zaid,Green Gram,high
+32.5,101,45,6.9,medium,sandy_loam,Zaid,Green Gram,high
+30.2,56,48,7.1,low,sandy_loam,Zaid,Green Gram,high
+27.7,188,36,6.7,medium,sandy_loam,Zaid,Green Gram,high
+29.3,205,29,7.3,medium,sandy_loam,Zaid,Green Gram,high
+30.9,110,53,6.4,low,loamy,Zaid,Green Gram,high
+28.6,155,29,6.3,low,loamy,Zaid,Green Gram,high
+28.0,119,37,7.4,medium,sandy_loam,Zaid,Green Gram,high
+33.6,39,35,6.9,medium,sandy_loam,Zaid,Green Gram,high
+32.6,141,45,7.2,low,sandy_loam,Zaid,Green Gram,high
+28.9,200,28,6.8,low,loamy,Zaid,Green Gram,high
+27.2,152,57,7.1,low,sandy_loam,Zaid,Green Gram,high
+33.3,79,45,6.0,low,loamy,Zaid,Green Gram,high
+28.3,198,59,6.8,medium,loamy,Zaid,Green Gram,high
+38.5,53,31,6.1,medium,sandy_loam,Zaid,Green Gram,high
+34.1,49,51,6.1,medium,loamy,Zaid,Green Gram,high
+37.1,199,41,7.3,medium,loamy,Zaid,Green Gram,high
+32.5,79,60,6.1,low,sandy_loam,Zaid,Green Gram,high
+28.4,116,39,6.1,medium,sandy_loam,Zaid,Green Gram,high
+32.4,119,57,6.0,medium,sandy_loam,Zaid,Green Gram,high
+29.7,187,33,7.1,medium,loamy,Zaid,Green Gram,high
+33.2,156,37,7.6,low,loamy,Zaid,Green Gram,high
+22.9,167,52,6.5,low,sandy_loam,Rabi,Barley,high
+12.7,58,60,6.8,low,loamy,Rabi,Barley,high
+16.2,184,55,7.4,medium,sandy_loam,Rabi,Barley,high
+11.3,59,64,7.2,low,sandy_loam,Rabi,Barley,high
+23.6,228,44,6.5,medium,sandy_loam,Rabi,Barley,high
+13.4,171,61,7.1,low,loamy,Rabi,Barley,high
+20.6,83,40,6.7,medium,loamy,Rabi,Barley,high
+23.3,52,54,6.8,medium,loamy,Rabi,Barley,high
+16.8,166,35,6.9,low,loamy,Rabi,Barley,high
+13.8,240,51,7.5,low,loamy,Rabi,Barley,high
+21.9,124,52,7.2,medium,loamy,Rabi,Barley,high
+14.8,51,53,6.4,medium,sandy_loam,Rabi,Barley,high
+22.3,149,45,7.4,low,sandy_loam,Rabi,Barley,high
+12.4,190,42,7.8,low,sandy_loam,Rabi,Barley,high
+19.1,261,46,8.0,low,sandy_loam,Rabi,Barley,high
+14.3,115,58,7.0,low,loamy,Rabi,Barley,high
+24.2,169,52,6.7,medium,loamy,Rabi,Barley,high
+13.5,53,35,7.4,low,loamy,Rabi,Barley,high
+11.0,247,40,6.6,low,loamy,Rabi,Barley,high
+11.9,77,57,6.6,low,loamy,Rabi,Barley,high
+24.4,127,65,7.1,low,loamy,Rabi,Barley,high
+15.2,75,38,8.0,medium,loamy,Rabi,Barley,high
+13.5,258,57,8.0,medium,sandy_loam,Rabi,Barley,high
+20.3,224,46,7.7,medium,sandy_loam,Rabi,Barley,high
+13.5,45,57,7.4,low,sandy_loam,Rabi,Barley,high
+19.4,248,66,6.8,low,loamy,Rabi,Barley,high
+13.0,209,41,8.1,low,sandy_loam,Rabi,Barley,high
+22.5,192,58,7.0,low,loamy,Rabi,Barley,high
+14.0,198,45,7.7,low,sandy_loam,Rabi,Barley,high
+16.4,206,66,7.9,medium,loamy,Rabi,Barley,high
+15.9,128,61,7.8,low,sandy_loam,Rabi,Barley,high
+17.3,221,34,6.4,medium,sandy_loam,Rabi,Barley,high
+12.1,82,46,7.7,low,loamy,Rabi,Barley,high
+19.3,180,49,6.4,low,loamy,Rabi,Barley,high
+13.2,67,40,6.7,medium,loamy,Rabi,Barley,high
+15.2,66,46,7.3,medium,sandy_loam,Rabi,Barley,high
+11.8,46,36,7.8,medium,sandy_loam,Rabi,Barley,high
+12.4,90,55,8.1,medium,sandy_loam,Rabi,Barley,high
+15.3,132,50,7.5,low,loamy,Rabi,Barley,high
+13.6,240,45,7.2,medium,loamy,Rabi,Barley,high
+17.5,95,42,6.5,low,sandy_loam,Rabi,Barley,high
+20.3,223,47,7.7,low,sandy_loam,Rabi,Barley,high
+22.7,225,47,7.3,medium,sandy_loam,Rabi,Barley,high
+17.7,62,64,7.6,low,sandy_loam,Rabi,Barley,high
+24.3,144,66,6.7,low,sandy_loam,Rabi,Barley,high
+12.8,138,67,7.1,low,loamy,Rabi,Barley,high
+15.5,205,61,6.5,medium,loamy,Rabi,Barley,high
+23.0,159,65,6.4,medium,sandy_loam,Rabi,Barley,high
+16.8,77,53,7.7,low,sandy_loam,Rabi,Barley,high
+18.9,67,43,7.3,medium,loamy,Rabi,Barley,high
+14.7,189,53,7.2,low,loamy,Rabi,Barley,high
+16.6,181,56,7.1,medium,loamy,Rabi,Barley,high
+20.7,56,49,6.8,medium,sandy_loam,Rabi,Barley,high
+15.7,220,43,7.8,low,sandy_loam,Rabi,Barley,high
+12.9,260,48,7.8,medium,loamy,Rabi,Barley,high
+19.5,64,48,8.0,medium,loamy,Rabi,Barley,high
+21.6,236,61,7.3,low,sandy_loam,Rabi,Barley,high
+15.4,156,37,7.9,low,sandy_loam,Rabi,Barley,high
+13.7,228,62,6.8,medium,sandy_loam,Rabi,Barley,high
+23.8,200,42,7.8,medium,sandy_loam,Rabi,Barley,high
+29.7,680,62,6.7,high,clay,Kharif,Soybean,medium
+26.6,957,56,7.3,medium,clay,Kharif,Soybean,medium
+23.6,591,73,7.2,medium,loamy,Kharif,Soybean,medium
+29.4,882,56,6.6,medium,loamy,Kharif,Soybean,medium
+27.8,629,53,7.3,medium,clay,Kharif,Soybean,medium
+29.0,1006,69,7.1,high,clay,Kharif,Soybean,medium
+31.7,963,61,6.3,high,clay,Kharif,Soybean,medium
+28.8,571,77,7.6,high,clay,Kharif,Soybean,medium
+26.1,618,50,7.6,high,clay,Kharif,Soybean,medium
+25.8,898,74,6.4,medium,loamy,Kharif,Soybean,medium
+31.7,942,71,6.9,high,loamy,Kharif,Soybean,medium
+30.1,872,77,6.3,high,clay,Kharif,Soybean,medium
+27.0,584,69,6.9,medium,clay,Kharif,Soybean,medium
+30.1,671,64,7.2,high,clay,Kharif,Soybean,medium
+31.2,958,73,6.2,medium,clay,Kharif,Soybean,medium
+24.5,688,71,7.2,medium,clay,Kharif,Soybean,medium
+29.4,671,54,7.4,high,clay,Kharif,Soybean,medium
+26.8,840,61,6.1,medium,loamy,Kharif,Soybean,medium
+27.7,658,51,7.1,high,clay,Kharif,Soybean,medium
+23.9,964,52,6.2,high,clay,Kharif,Soybean,medium
+24.7,968,53,6.0,high,loamy,Kharif,Soybean,medium
+26.3,595,61,6.2,medium,loamy,Kharif,Soybean,medium
+27.9,922,51,6.9,high,clay,Kharif,Soybean,medium
+27.3,790,48,6.8,high,loamy,Kharif,Soybean,medium
+31.6,919,63,5.9,medium,loamy,Kharif,Soybean,medium
+25.5,975,57,6.1,high,loamy,Kharif,Soybean,medium
+24.0,589,76,6.7,high,clay,Kharif,Soybean,medium
+31.6,1030,58,7.4,high,loamy,Kharif,Soybean,medium
+24.9,989,72,5.9,medium,loamy,Kharif,Soybean,medium
+25.3,578,63,6.1,medium,clay,Kharif,Soybean,medium
+31.5,687,64,6.0,medium,loamy,Kharif,Soybean,medium
+29.4,577,68,6.6,high,loamy,Kharif,Soybean,medium
+28.4,788,52,7.1,medium,clay,Kharif,Soybean,medium
+27.3,615,63,7.0,medium,clay,Kharif,Soybean,medium
+31.1,617,69,6.1,medium,loamy,Kharif,Soybean,medium
+28.0,851,71,7.3,medium,clay,Kharif,Soybean,medium
+29.9,705,49,6.7,medium,clay,Kharif,Soybean,medium
+26.4,569,67,7.5,high,loamy,Kharif,Soybean,medium
+32.2,930,50,7.1,high,loamy,Kharif,Soybean,medium
+27.6,1021,56,6.0,medium,loamy,Kharif,Soybean,medium
+31.3,735,68,6.6,medium,loamy,Kharif,Soybean,medium
+31.3,981,48,6.1,medium,clay,Kharif,Soybean,medium
+26.7,771,66,7.4,medium,clay,Kharif,Soybean,medium
+30.9,653,60,7.6,high,clay,Kharif,Soybean,medium
+29.8,790,60,7.4,medium,loamy,Kharif,Soybean,medium
+24.6,905,76,7.3,medium,clay,Kharif,Soybean,medium
+31.8,792,64,6.6,high,clay,Kharif,Soybean,medium
+29.0,968,74,7.1,medium,clay,Kharif,Soybean,medium
+31.9,620,60,6.0,high,clay,Kharif,Soybean,medium
+23.5,971,63,7.2,medium,clay,Kharif,Soybean,medium
+28.2,887,66,6.6,medium,clay,Kharif,Soybean,medium
+26.6,882,59,7.3,medium,loamy,Kharif,Soybean,medium
+29.3,641,73,7.4,medium,loamy,Kharif,Soybean,medium
+30.3,717,58,6.4,medium,clay,Kharif,Soybean,medium
+27.1,677,61,7.3,high,loamy,Kharif,Soybean,medium
+31.3,775,51,6.7,medium,loamy,Kharif,Soybean,medium
+27.1,585,64,7.3,high,loamy,Kharif,Soybean,medium
+29.4,780,58,7.3,medium,clay,Kharif,Soybean,medium
+26.4,924,65,7.1,high,clay,Kharif,Soybean,medium
+24.4,920,54,6.5,high,clay,Kharif,Soybean,medium
+33.1,489,43,6.2,high,sandy_loam,Kharif,Cotton,medium
+27.4,559,42,7.8,medium,loamy,Kharif,Cotton,medium
+34.6,556,49,7.6,medium,clay,Kharif,Cotton,medium
+34.8,741,64,6.9,medium,loamy,Kharif,Cotton,medium
+24.2,810,57,6.8,high,clay,Kharif,Cotton,medium
+34.1,890,62,6.2,medium,sandy_loam,Kharif,Cotton,medium
+29.1,747,68,7.0,high,loamy,Kharif,Cotton,medium
+36.6,893,64,6.5,high,loamy,Kharif,Cotton,medium
+29.9,530,52,7.5,high,clay,Kharif,Cotton,medium
+31.1,614,63,7.1,medium,sandy_loam,Kharif,Cotton,medium
+26.8,799,61,8.0,medium,clay,Kharif,Cotton,medium
+32.4,913,55,7.5,high,clay,Kharif,Cotton,medium
+25.6,631,54,7.2,high,clay,Kharif,Cotton,medium
+33.7,858,48,7.8,medium,clay,Kharif,Cotton,medium
+25.5,645,39,6.0,high,sandy_loam,Kharif,Cotton,medium
+36.7,785,43,6.0,high,sandy_loam,Kharif,Cotton,medium
+33.7,483,66,6.1,medium,clay,Kharif,Cotton,medium
+32.4,648,55,7.7,high,clay,Kharif,Cotton,medium
+32.6,898,51,8.1,high,clay,Kharif,Cotton,medium
+24.8,813,45,7.9,high,sandy_loam,Kharif,Cotton,medium
+35.8,795,60,7.6,medium,clay,Kharif,Cotton,medium
+36.4,604,44,7.4,medium,sandy_loam,Kharif,Cotton,medium
+33.5,523,39,6.5,high,sandy_loam,Kharif,Cotton,medium
+26.2,861,38,6.9,medium,sandy_loam,Kharif,Cotton,medium
+26.1,618,39,8.0,high,loamy,Kharif,Cotton,medium
+34.2,723,40,7.5,medium,sandy_loam,Kharif,Cotton,medium
+30.8,833,43,7.1,high,sandy_loam,Kharif,Cotton,medium
+28.6,878,61,6.6,high,sandy_loam,Kharif,Cotton,medium
+36.2,755,54,7.1,medium,sandy_loam,Kharif,Cotton,medium
+32.7,675,69,7.3,medium,sandy_loam,Kharif,Cotton,medium
+32.8,617,69,8.0,high,loamy,Kharif,Cotton,medium
+31.0,599,69,7.7,high,clay,Kharif,Cotton,medium
+34.4,675,39,7.9,medium,loamy,Kharif,Cotton,medium
+30.7,908,43,8.1,medium,clay,Kharif,Cotton,medium
+25.0,779,65,7.8,high,sandy_loam,Kharif,Cotton,medium
+26.7,853,68,7.6,high,clay,Kharif,Cotton,medium
+34.5,501,61,5.9,high,sandy_loam,Kharif,Cotton,medium
+25.2,493,65,7.1,medium,loamy,Kharif,Cotton,medium
+29.3,677,52,6.6,high,clay,Kharif,Cotton,medium
+25.6,471,63,6.0,medium,clay,Kharif,Cotton,medium
+34.9,634,55,6.5,high,clay,Kharif,Cotton,medium
+25.2,823,53,6.8,medium,loamy,Kharif,Cotton,medium
+26.1,570,64,7.7,high,clay,Kharif,Cotton,medium
+26.0,782,69,7.7,high,sandy_loam,Kharif,Cotton,medium
+31.2,726,42,5.9,high,clay,Kharif,Cotton,medium
+31.1,507,45,7.6,high,sandy_loam,Kharif,Cotton,medium
+29.4,768,55,6.2,medium,clay,Kharif,Cotton,medium
+34.8,558,44,7.7,medium,clay,Kharif,Cotton,medium
+30.0,723,48,6.0,medium,sandy_loam,Kharif,Cotton,medium
+33.4,694,49,6.1,medium,sandy_loam,Kharif,Cotton,medium
+27.8,500,44,7.0,high,clay,Kharif,Cotton,medium
+32.5,790,43,7.2,high,loamy,Kharif,Cotton,medium
+26.3,613,65,7.5,high,loamy,Kharif,Cotton,medium
+34.8,530,63,7.9,high,loamy,Kharif,Cotton,medium
+28.7,610,57,6.2,medium,loamy,Kharif,Cotton,medium
+35.1,533,56,6.5,medium,clay,Kharif,Cotton,medium
+25.1,477,55,5.9,high,clay,Kharif,Cotton,medium
+26.8,485,47,7.9,high,clay,Kharif,Cotton,medium
+34.0,638,45,7.6,high,sandy_loam,Kharif,Cotton,medium
+30.0,705,51,7.0,medium,clay,Kharif,Cotton,medium
+30.7,740,47,6.1,low,sandy_loam,Kharif,Groundnut,medium
+33.1,490,65,6.2,medium,sandy_loam,Kharif,Groundnut,medium
+26.5,709,58,6.8,medium,sandy_loam,Kharif,Groundnut,medium
+32.9,783,44,6.7,low,sandy_loam,Kharif,Groundnut,medium
+32.1,568,59,6.1,medium,sandy_loam,Kharif,Groundnut,medium
+29.8,789,45,6.2,low,sandy_loam,Kharif,Groundnut,medium
+27.6,778,57,6.5,low,sandy,Kharif,Groundnut,medium
+28.4,556,58,6.2,low,sandy,Kharif,Groundnut,medium
+25.8,686,67,6.7,medium,sandy_loam,Kharif,Groundnut,medium
+31.0,644,57,6.2,low,sandy_loam,Kharif,Groundnut,medium
+24.6,491,60,6.1,low,sandy,Kharif,Groundnut,medium
+24.9,566,48,7.0,low,sandy_loam,Kharif,Groundnut,medium
+33.2,551,61,6.5,medium,sandy,Kharif,Groundnut,medium
+26.4,619,47,6.6,low,sandy_loam,Kharif,Groundnut,medium
+25.9,715,70,6.6,low,sandy,Kharif,Groundnut,medium
+27.9,522,43,6.5,medium,sandy,Kharif,Groundnut,medium
+30.0,538,69,6.6,low,sandy,Kharif,Groundnut,medium
+28.8,521,61,6.9,medium,sandy_loam,Kharif,Groundnut,medium
+27.8,491,58,6.2,medium,sandy_loam,Kharif,Groundnut,medium
+27.6,756,69,6.9,low,sandy_loam,Kharif,Groundnut,medium
+25.6,642,50,6.9,medium,sandy_loam,Kharif,Groundnut,medium
+26.8,478,65,5.9,low,sandy,Kharif,Groundnut,medium
+27.8,547,66,6.4,low,sandy,Kharif,Groundnut,medium
+28.3,680,51,6.5,medium,sandy_loam,Kharif,Groundnut,medium
+33.6,614,49,6.6,medium,sandy,Kharif,Groundnut,medium
+27.8,669,50,6.3,medium,sandy_loam,Kharif,Groundnut,medium
+31.2,774,62,6.8,medium,sandy,Kharif,Groundnut,medium
+25.3,653,66,6.8,low,sandy,Kharif,Groundnut,medium
+28.0,697,66,6.9,medium,sandy_loam,Kharif,Groundnut,medium
+25.2,568,54,6.6,medium,sandy_loam,Kharif,Groundnut,medium
+30.1,657,64,6.6,low,sandy_loam,Kharif,Groundnut,medium
+28.4,546,62,6.9,medium,sandy,Kharif,Groundnut,medium
+24.7,685,58,6.2,low,sandy,Kharif,Groundnut,medium
+27.7,704,71,6.0,medium,sandy_loam,Kharif,Groundnut,medium
+27.6,614,60,6.5,low,sandy,Kharif,Groundnut,medium
+29.5,729,59,6.6,medium,sandy_loam,Kharif,Groundnut,medium
+26.5,811,56,6.4,low,sandy_loam,Kharif,Groundnut,medium
+26.0,652,59,6.5,medium,sandy,Kharif,Groundnut,medium
+31.8,809,68,6.9,medium,sandy_loam,Kharif,Groundnut,medium
+33.3,672,65,6.8,medium,sandy_loam,Kharif,Groundnut,medium
+32.7,776,57,6.2,medium,sandy,Kharif,Groundnut,medium
+30.6,556,52,7.0,low,sandy_loam,Kharif,Groundnut,medium
+26.7,508,63,6.9,low,sandy,Kharif,Groundnut,medium
+28.8,599,69,6.2,low,sandy_loam,Kharif,Groundnut,medium
+31.2,558,50,6.2,low,sandy,Kharif,Groundnut,medium
+32.1,767,53,6.8,low,sandy,Kharif,Groundnut,medium
+30.6,707,61,6.8,low,sandy_loam,Kharif,Groundnut,medium
+27.8,586,69,6.9,medium,sandy_loam,Kharif,Groundnut,medium
+26.1,742,58,6.4,low,sandy,Kharif,Groundnut,medium
+29.2,623,70,6.0,medium,sandy_loam,Kharif,Groundnut,medium
+32.3,746,56,6.1,medium,sandy_loam,Kharif,Groundnut,medium
+30.8,480,49,6.6,medium,sandy_loam,Kharif,Groundnut,medium
+30.0,566,59,6.2,medium,sandy_loam,Kharif,Groundnut,medium
+27.8,650,49,6.7,medium,sandy_loam,Kharif,Groundnut,medium
+32.3,573,48,6.1,low,sandy,Kharif,Groundnut,medium
+31.0,756,59,6.9,low,sandy,Kharif,Groundnut,medium
+31.8,733,57,5.9,medium,sandy_loam,Kharif,Groundnut,medium
+25.6,787,61,6.5,medium,sandy_loam,Kharif,Groundnut,medium
+27.1,672,59,6.4,low,sandy,Kharif,Groundnut,medium
+26.4,564,67,6.0,medium,sandy_loam,Kharif,Groundnut,medium
+22.7,214,70,6.2,medium,sandy_loam,Rabi,Groundnut,medium
+20.5,285,71,6.2,medium,sandy_loam,Rabi,Groundnut,medium
+22.7,240,57,6.8,medium,sandy_loam,Rabi,Groundnut,medium
+25.1,192,71,6.9,medium,sandy_loam,Rabi,Groundnut,medium
+25.2,217,68,6.0,medium,sandy_loam,Rabi,Groundnut,medium
+21.5,158,51,6.2,medium,sandy_loam,Rabi,Groundnut,medium
+27.6,265,70,6.8,medium,sandy_loam,Rabi,Groundnut,medium
+20.9,282,47,6.2,medium,sandy,Rabi,Groundnut,medium
+21.3,176,46,7.0,medium,sandy,Rabi,Groundnut,medium
+19.6,176,65,6.0,medium,sandy,Rabi,Groundnut,medium
+20.1,300,54,6.2,medium,sandy_loam,Rabi,Groundnut,medium
+25.2,114,67,6.0,medium,sandy_loam,Rabi,Groundnut,medium
+27.4,192,68,7.0,medium,sandy,Rabi,Groundnut,medium
+28.4,246,48,6.6,medium,sandy_loam,Rabi,Groundnut,medium
+27.8,196,50,6.0,medium,sandy_loam,Rabi,Groundnut,medium
+23.2,120,43,6.5,medium,sandy_loam,Rabi,Groundnut,medium
+22.0,208,63,6.5,medium,sandy_loam,Rabi,Groundnut,medium
+19.4,184,51,6.2,medium,sandy_loam,Rabi,Groundnut,medium
+21.1,289,56,6.2,medium,sandy_loam,Rabi,Groundnut,medium
+21.4,102,61,6.5,medium,sandy_loam,Rabi,Groundnut,medium
+25.4,207,51,6.1,medium,sandy,Rabi,Groundnut,medium
+20.6,110,56,6.4,medium,sandy,Rabi,Groundnut,medium
+22.3,119,71,5.9,medium,sandy_loam,Rabi,Groundnut,medium
+21.9,250,64,6.2,medium,sandy,Rabi,Groundnut,medium
+23.9,163,52,6.8,medium,sandy_loam,Rabi,Groundnut,medium
+25.8,91,45,6.8,medium,sandy,Rabi,Groundnut,medium
+21.8,175,59,6.1,medium,sandy_loam,Rabi,Groundnut,medium
+27.0,112,65,6.2,medium,sandy,Rabi,Groundnut,medium
+26.2,92,56,6.8,medium,sandy_loam,Rabi,Groundnut,medium
+23.0,307,70,6.1,medium,sandy,Rabi,Groundnut,medium
+21.7,232,49,6.9,medium,sandy,Rabi,Groundnut,medium
+21.5,185,43,6.8,medium,sandy_loam,Rabi,Groundnut,medium
+26.7,86,44,6.8,medium,sandy,Rabi,Groundnut,medium
+22.8,105,48,6.0,medium,sandy,Rabi,Groundnut,medium
+19.9,234,63,6.8,medium,sandy_loam,Rabi,Groundnut,medium
+21.5,312,66,6.8,medium,sandy,Rabi,Groundnut,medium
+19.6,172,64,6.2,medium,sandy_loam,Rabi,Groundnut,medium
+25.9,214,59,6.5,medium,sandy_loam,Rabi,Groundnut,medium
+22.4,193,68,6.6,medium,sandy,Rabi,Groundnut,medium
+24.3,188,67,6.5,medium,sandy,Rabi,Groundnut,medium
+26.6,201,64,6.9,medium,sandy,Rabi,Groundnut,medium
+22.3,99,71,6.9,medium,sandy_loam,Rabi,Groundnut,medium
+26.5,120,51,6.4,medium,sandy,Rabi,Groundnut,medium
+20.3,237,44,7.0,medium,sandy,Rabi,Groundnut,medium
+21.2,197,46,6.6,medium,sandy_loam,Rabi,Groundnut,medium
+24.2,247,50,6.3,medium,sandy,Rabi,Groundnut,medium
+28.0,132,57,7.0,medium,sandy_loam,Rabi,Groundnut,medium
+26.8,98,59,7.0,medium,sandy_loam,Rabi,Groundnut,medium
+26.7,98,61,6.5,medium,sandy_loam,Rabi,Groundnut,medium
+20.1,134,58,6.0,medium,sandy_loam,Rabi,Groundnut,medium
+21.1,206,50,6.6,medium,sandy_loam,Rabi,Groundnut,medium
+26.3,262,60,6.7,medium,sandy,Rabi,Groundnut,medium
+20.9,126,55,6.3,medium,sandy_loam,Rabi,Groundnut,medium
+28.0,293,59,7.1,medium,sandy_loam,Rabi,Groundnut,medium
+26.5,184,64,6.6,medium,sandy_loam,Rabi,Groundnut,medium
+26.5,299,50,7.0,medium,sandy_loam,Rabi,Groundnut,medium
+19.4,92,51,5.9,medium,sandy_loam,Rabi,Groundnut,medium
+19.4,312,49,6.3,medium,sandy,Rabi,Groundnut,medium
+20.2,191,48,6.2,medium,sandy,Rabi,Groundnut,medium
+21.7,154,60,6.6,medium,sandy,Rabi,Groundnut,medium
+33.1,268,43,6.9,medium,sandy_loam,Zaid,Groundnut,medium
+26.7,272,49,6.8,high,sandy_loam,Zaid,Groundnut,medium
+34.5,185,65,6.1,medium,sandy,Zaid,Groundnut,medium
+32.2,231,40,6.5,high,sandy,Zaid,Groundnut,medium
+29.4,246,42,6.7,high,sandy_loam,Zaid,Groundnut,medium
+33.3,217,41,6.4,high,sandy,Zaid,Groundnut,medium
+27.6,103,55,6.0,high,sandy_loam,Zaid,Groundnut,medium
+27.1,200,60,6.1,medium,sandy_loam,Zaid,Groundnut,medium
+31.6,197,57,6.1,medium,sandy,Zaid,Groundnut,medium
+27.0,264,47,7.0,medium,sandy,Zaid,Groundnut,medium
+32.6,182,48,6.3,medium,sandy_loam,Zaid,Groundnut,medium
+27.9,165,62,6.9,medium,sandy_loam,Zaid,Groundnut,medium
+26.8,274,44,6.4,medium,sandy,Zaid,Groundnut,medium
+33.2,140,56,6.1,high,sandy,Zaid,Groundnut,medium
+29.5,271,47,6.5,high,sandy,Zaid,Groundnut,medium
+33.2,133,54,6.8,high,sandy,Zaid,Groundnut,medium
+32.8,239,49,7.0,medium,sandy_loam,Zaid,Groundnut,medium
+27.9,150,61,6.6,medium,sandy_loam,Zaid,Groundnut,medium
+32.4,86,49,6.2,high,sandy,Zaid,Groundnut,medium
+26.5,285,57,6.2,high,sandy,Zaid,Groundnut,medium
+34.7,196,55,6.0,medium,sandy_loam,Zaid,Groundnut,medium
+31.6,249,39,7.0,high,sandy_loam,Zaid,Groundnut,medium
+30.9,257,39,6.7,high,sandy_loam,Zaid,Groundnut,medium
+28.6,311,53,6.9,high,sandy_loam,Zaid,Groundnut,medium
+34.6,273,39,6.6,high,sandy,Zaid,Groundnut,medium
+27.8,292,57,6.0,high,sandy,Zaid,Groundnut,medium
+30.2,217,50,6.3,high,sandy_loam,Zaid,Groundnut,medium
+31.4,132,42,6.5,medium,sandy,Zaid,Groundnut,medium
+29.2,248,53,6.1,medium,sandy,Zaid,Groundnut,medium
+29.3,213,66,6.1,high,sandy,Zaid,Groundnut,medium
+33.1,262,64,6.4,high,sandy_loam,Zaid,Groundnut,medium
+30.5,301,64,7.0,high,sandy,Zaid,Groundnut,medium
+33.6,109,43,6.8,high,sandy,Zaid,Groundnut,medium
+31.9,138,39,6.0,high,sandy,Zaid,Groundnut,medium
+31.0,224,59,6.4,high,sandy_loam,Zaid,Groundnut,medium
+30.8,122,45,6.4,medium,sandy_loam,Zaid,Groundnut,medium
+35.2,136,57,6.2,medium,sandy,Zaid,Groundnut,medium
+28.0,305,51,6.6,high,sandy_loam,Zaid,Groundnut,medium
+34.6,183,61,6.6,high,sandy_loam,Zaid,Groundnut,medium
+30.0,302,55,6.5,medium,sandy,Zaid,Groundnut,medium
+30.6,276,39,7.1,high,sandy,Zaid,Groundnut,medium
+31.5,204,56,6.0,high,sandy_loam,Zaid,Groundnut,medium
+30.1,155,62,6.5,high,sandy_loam,Zaid,Groundnut,medium
+32.0,97,53,6.1,high,sandy,Zaid,Groundnut,medium
+33.1,110,61,7.0,medium,sandy_loam,Zaid,Groundnut,medium
+30.2,189,43,6.6,medium,sandy_loam,Zaid,Groundnut,medium
+27.2,159,57,6.7,medium,sandy,Zaid,Groundnut,medium
+27.2,248,56,6.0,high,sandy,Zaid,Groundnut,medium
+29.9,172,60,7.0,medium,sandy,Zaid,Groundnut,medium
+34.4,125,59,6.4,high,sandy_loam,Zaid,Groundnut,medium
+29.0,126,64,7.0,medium,sandy_loam,Zaid,Groundnut,medium
+26.5,199,52,6.9,high,sandy,Zaid,Groundnut,medium
+28.4,237,51,6.4,medium,sandy,Zaid,Groundnut,medium
+34.5,149,56,6.9,medium,sandy,Zaid,Groundnut,medium
+28.1,97,48,6.1,medium,sandy_loam,Zaid,Groundnut,medium
+29.4,104,41,7.1,medium,sandy_loam,Zaid,Groundnut,medium
+32.0,244,55,6.8,medium,sandy_loam,Zaid,Groundnut,medium
+33.3,168,39,6.8,high,sandy_loam,Zaid,Groundnut,medium
+34.7,274,60,6.9,medium,sandy_loam,Zaid,Groundnut,medium
+30.7,112,63,6.3,high,sandy,Zaid,Groundnut,medium
+21.5,257,41,7.4,medium,loamy,Rabi,Wheat,medium
+21.9,255,65,7.3,high,clay,Rabi,Wheat,medium
+23.7,155,58,7.2,medium,clay,Rabi,Wheat,medium
+19.4,231,60,6.9,medium,clay,Rabi,Wheat,medium
+14.5,164,44,6.1,high,clay,Rabi,Wheat,medium
+23.0,294,45,7.1,high,loamy,Rabi,Wheat,medium
+11.6,181,66,6.3,medium,clay,Rabi,Wheat,medium
+15.2,309,48,6.9,high,sandy_loam,Rabi,Wheat,medium
+12.7,177,51,7.0,medium,sandy_loam,Rabi,Wheat,medium
+13.9,322,70,6.9,high,sandy_loam,Rabi,Wheat,medium
+20.7,220,59,7.7,high,loamy,Rabi,Wheat,medium
+22.8,200,63,7.6,high,clay,Rabi,Wheat,medium
+21.9,171,56,6.3,high,loamy,Rabi,Wheat,medium
+12.0,123,67,6.6,high,clay,Rabi,Wheat,medium
+19.0,128,59,6.2,medium,loamy,Rabi,Wheat,medium
+21.6,171,39,6.7,high,sandy_loam,Rabi,Wheat,medium
+16.6,321,48,7.0,medium,sandy_loam,Rabi,Wheat,medium
+16.6,91,45,6.0,medium,loamy,Rabi,Wheat,medium
+24.6,125,49,6.9,high,loamy,Rabi,Wheat,medium
+13.1,333,66,7.8,medium,sandy_loam,Rabi,Wheat,medium
+21.9,213,62,6.9,medium,loamy,Rabi,Wheat,medium
+25.0,279,58,6.0,high,sandy_loam,Rabi,Wheat,medium
+12.5,302,64,5.9,high,clay,Rabi,Wheat,medium
+24.4,173,44,6.4,high,loamy,Rabi,Wheat,medium
+21.1,159,43,6.1,medium,sandy_loam,Rabi,Wheat,medium
+19.1,239,47,7.8,high,clay,Rabi,Wheat,medium
+14.7,101,59,6.6,high,sandy_loam,Rabi,Wheat,medium
+12.9,217,61,6.1,medium,sandy_loam,Rabi,Wheat,medium
+17.4,132,58,7.1,high,clay,Rabi,Wheat,medium
+16.3,176,44,7.4,medium,loamy,Rabi,Wheat,medium
+19.5,107,66,7.3,medium,loamy,Rabi,Wheat,medium
+15.6,267,64,6.8,medium,sandy_loam,Rabi,Wheat,medium
+23.9,259,69,6.7,high,loamy,Rabi,Wheat,medium
+17.8,89,54,6.6,high,sandy_loam,Rabi,Wheat,medium
+15.2,181,58,6.9,high,clay,Rabi,Wheat,medium
+23.0,175,60,7.5,high,loamy,Rabi,Wheat,medium
+19.9,149,46,6.2,high,loamy,Rabi,Wheat,medium
+12.0,140,62,6.8,high,clay,Rabi,Wheat,medium
+22.8,238,46,7.2,medium,clay,Rabi,Wheat,medium
+25.0,247,55,7.1,high,loamy,Rabi,Wheat,medium
+19.3,318,44,7.9,medium,clay,Rabi,Wheat,medium
+12.6,316,64,6.6,high,clay,Rabi,Wheat,medium
+20.9,106,66,7.7,medium,sandy_loam,Rabi,Wheat,medium
+20.9,211,48,7.1,high,sandy_loam,Rabi,Wheat,medium
+14.1,334,48,7.5,high,loamy,Rabi,Wheat,medium
+21.8,345,72,7.1,high,sandy_loam,Rabi,Wheat,medium
+23.8,98,69,7.9,medium,clay,Rabi,Wheat,medium
+19.4,364,41,6.4,medium,sandy_loam,Rabi,Wheat,medium
+17.5,251,59,7.3,high,loamy,Rabi,Wheat,medium
+17.5,141,44,6.1,high,loamy,Rabi,Wheat,medium
+23.6,125,72,7.3,medium,sandy_loam,Rabi,Wheat,medium
+12.0,85,63,6.9,high,sandy_loam,Rabi,Wheat,medium
+12.2,266,52,6.8,high,clay,Rabi,Wheat,medium
+13.7,228,57,6.8,high,sandy_loam,Rabi,Wheat,medium
+13.8,255,58,7.6,medium,clay,Rabi,Wheat,medium
+18.5,199,57,6.6,medium,clay,Rabi,Wheat,medium
+18.2,187,58,7.9,medium,sandy_loam,Rabi,Wheat,medium
+22.0,233,68,7.4,high,loamy,Rabi,Wheat,medium
+18.8,232,59,6.4,medium,clay,Rabi,Wheat,medium
+20.5,311,48,6.0,high,clay,Rabi,Wheat,medium
+22.7,143,50,6.9,medium,loamy,Rabi,Mustard,medium
+16.3,261,43,6.2,medium,loamy,Rabi,Mustard,medium
+11.9,144,38,6.0,medium,sandy_loam,Rabi,Mustard,medium
+15.3,53,50,7.8,medium,loamy,Rabi,Mustard,medium
+13.0,99,62,5.9,low,sandy_loam,Rabi,Mustard,medium
+24.7,205,56,6.7,low,loamy,Rabi,Mustard,medium
+22.8,89,39,7.1,low,loamy,Rabi,Mustard,medium
+25.8,258,53,7.7,medium,loamy,Rabi,Mustard,medium
+22.6,89,48,7.3,low,loamy,Rabi,Mustard,medium
+11.8,95,61,6.0,medium,loamy,Rabi,Mustard,medium
+18.1,144,66,8.0,low,loamy,Rabi,Mustard,medium
+21.3,124,42,7.1,medium,sandy_loam,Rabi,Mustard,medium
+15.3,219,46,6.6,low,sandy_loam,Rabi,Mustard,medium
+24.8,182,66,6.8,medium,loamy,Rabi,Mustard,medium
+15.0,220,41,7.2,medium,sandy_loam,Rabi,Mustard,medium
+22.0,171,39,6.6,low,loamy,Rabi,Mustard,medium
+19.2,190,62,5.9,low,sandy_loam,Rabi,Mustard,medium
+21.3,116,58,6.4,low,sandy_loam,Rabi,Mustard,medium
+20.3,47,53,7.9,low,sandy_loam,Rabi,Mustard,medium
+21.6,62,62,6.1,low,sandy_loam,Rabi,Mustard,medium
+21.5,93,49,8.0,medium,loamy,Rabi,Mustard,medium
+22.6,195,56,7.6,medium,sandy_loam,Rabi,Mustard,medium
+22.7,98,35,6.7,low,loamy,Rabi,Mustard,medium
+25.4,95,48,7.0,low,loamy,Rabi,Mustard,medium
+13.7,148,38,7.6,low,sandy_loam,Rabi,Mustard,medium
+24.7,200,36,6.0,medium,loamy,Rabi,Mustard,medium
+11.2,149,55,5.8,low,loamy,Rabi,Mustard,medium
+15.0,196,64,7.2,medium,loamy,Rabi,Mustard,medium
+17.5,230,60,7.7,low,sandy_loam,Rabi,Mustard,medium
+16.8,194,60,6.1,medium,loamy,Rabi,Mustard,medium
+21.2,127,55,8.1,low,loamy,Rabi,Mustard,medium
+19.0,257,35,6.9,medium,sandy_loam,Rabi,Mustard,medium
+13.6,43,46,6.3,medium,sandy_loam,Rabi,Mustard,medium
+20.5,117,36,7.3,low,sandy_loam,Rabi,Mustard,medium
+11.5,40,67,6.4,medium,sandy_loam,Rabi,Mustard,medium
+22.9,183,50,8.1,medium,sandy_loam,Rabi,Mustard,medium
+11.5,47,60,5.9,low,sandy_loam,Rabi,Mustard,medium
+23.1,189,49,7.4,low,sandy_loam,Rabi,Mustard,medium
+24.9,43,38,7.4,medium,sandy_loam,Rabi,Mustard,medium
+14.6,185,33,7.3,medium,sandy_loam,Rabi,Mustard,medium
+17.8,74,53,7.7,low,sandy_loam,Rabi,Mustard,medium
+18.5,219,40,7.7,medium,loamy,Rabi,Mustard,medium
+23.2,262,56,6.6,low,loamy,Rabi,Mustard,medium
+23.6,218,59,7.2,medium,sandy_loam,Rabi,Mustard,medium
+12.8,67,47,7.5,low,loamy,Rabi,Mustard,medium
+14.6,169,37,7.7,medium,sandy_loam,Rabi,Mustard,medium
+11.2,147,33,6.3,low,loamy,Rabi,Mustard,medium
+17.2,221,59,7.4,low,sandy_loam,Rabi,Mustard,medium
+20.6,155,47,8.0,low,sandy_loam,Rabi,Mustard,medium
+21.8,176,36,7.8,medium,loamy,Rabi,Mustard,medium
+17.3,163,39,8.1,low,loamy,Rabi,Mustard,medium
+24.0,263,50,6.9,low,loamy,Rabi,Mustard,medium
+11.8,60,38,7.8,medium,loamy,Rabi,Mustard,medium
+13.6,189,34,7.3,medium,sandy_loam,Rabi,Mustard,medium
+17.5,112,61,7.6,low,sandy_loam,Rabi,Mustard,medium
+22.1,249,39,7.7,medium,sandy_loam,Rabi,Mustard,medium
+12.0,89,48,7.2,medium,sandy_loam,Rabi,Mustard,medium
+22.2,242,41,6.1,low,sandy_loam,Rabi,Mustard,medium
+14.5,130,40,7.9,low,loamy,Rabi,Mustard,medium
+19.8,47,48,6.3,medium,sandy_loam,Rabi,Mustard,medium
+28.1,855,79,6.8,high,clay,Kharif,Rice,low
+27.4,770,74,6.0,high,loamy,Kharif,Rice,low
+29.0,883,68,7.4,high,clay,Kharif,Rice,low
+30.5,1193,65,6.3,high,clay,Kharif,Rice,low
+30.7,1424,66,7.0,high,clay,Kharif,Rice,low
+27.3,1215,84,6.7,high,clay,Kharif,Rice,low
+28.5,780,87,7.0,high,loamy,Kharif,Rice,low
+29.9,1133,81,7.2,high,loamy,Kharif,Rice,low
+26.2,1197,58,7.0,high,clay,Kharif,Rice,low
+27.7,938,87,5.4,high,clay,Kharif,Rice,low
+32.1,1441,80,5.4,high,loamy,Kharif,Rice,low
+33.0,1454,70,7.2,high,loamy,Kharif,Rice,low
+32.1,745,76,6.2,high,clay,Kharif,Rice,low
+26.9,1355,78,6.8,high,clay,Kharif,Rice,low
+31.0,1017,85,6.5,high,clay,Kharif,Rice,low
+24.5,1041,76,6.2,high,clay,Kharif,Rice,low
+30.3,1372,62,6.1,high,loamy,Kharif,Rice,low
+32.5,1355,83,7.0,high,loamy,Kharif,Rice,low
+27.6,961,78,6.0,high,loamy,Kharif,Rice,low
+27.5,1139,73,5.6,high,loamy,Kharif,Rice,low
+31.0,1394,85,7.2,high,clay,Kharif,Rice,low
+34.5,1116,60,7.4,high,clay,Kharif,Rice,low
+24.5,968,78,6.5,high,clay,Kharif,Rice,low
+26.9,1531,74,5.6,high,loamy,Kharif,Rice,low
+28.8,1267,66,5.5,high,loamy,Kharif,Rice,low
+28.4,1022,77,6.1,high,loamy,Kharif,Rice,low
+27.0,851,81,5.7,high,clay,Kharif,Rice,low
+29.3,1532,80,5.4,high,loamy,Kharif,Rice,low
+28.9,879,85,7.0,high,clay,Kharif,Rice,low
+35.5,1426,78,6.9,high,clay,Kharif,Rice,low
+26.2,777,67,5.6,high,loamy,Kharif,Rice,low
+25.5,1201,59,6.1,high,clay,Kharif,Rice,low
+27.9,1182,63,6.0,high,loamy,Kharif,Rice,low
+35.0,1368,85,7.5,high,clay,Kharif,Rice,low
+35.5,1187,73,6.8,high,loamy,Kharif,Rice,low
+34.6,1531,80,7.6,high,loamy,Kharif,Rice,low
+27.4,835,72,5.4,high,loamy,Kharif,Rice,low
+23.4,1245,64,6.2,high,clay,Kharif,Rice,low
+30.9,902,73,7.2,high,clay,Kharif,Rice,low
+23.4,1181,71,6.9,high,loamy,Kharif,Rice,low
+25.6,1002,76,7.5,high,loamy,Kharif,Rice,low
+25.0,1437,69,6.2,high,loamy,Kharif,Rice,low
+27.6,1538,83,5.5,high,loamy,Kharif,Rice,low
+33.4,978,81,7.6,high,loamy,Kharif,Rice,low
+24.9,1221,60,5.8,high,loamy,Kharif,Rice,low
+24.0,1524,80,5.5,high,loamy,Kharif,Rice,low
+28.4,1195,79,7.1,high,clay,Kharif,Rice,low
+25.5,1054,74,5.4,high,loamy,Kharif,Rice,low
+29.4,1345,65,7.2,high,loamy,Kharif,Rice,low
+27.0,1264,76,5.6,high,loamy,Kharif,Rice,low
+25.4,1480,77,5.4,high,loamy,Kharif,Rice,low
+35.8,798,80,6.7,high,loamy,Kharif,Rice,low
+31.1,1131,78,5.6,high,loamy,Kharif,Rice,low
+25.2,792,67,7.4,high,loamy,Kharif,Rice,low
+25.2,965,70,7.5,high,clay,Kharif,Rice,low
+26.8,1174,85,6.5,high,clay,Kharif,Rice,low
+30.8,880,67,6.1,high,loamy,Kharif,Rice,low
+31.9,1303,61,6.7,high,clay,Kharif,Rice,low
+24.9,973,81,6.3,high,clay,Kharif,Rice,low
+25.9,1153,82,7.2,high,loamy,Kharif,Rice,low
+24.5,102,82,7.5,high,loamy,Rabi,Rice,low
+22.8,168,82,7.4,high,clay,Rabi,Rice,low
+27.4,91,82,5.9,high,clay,Rabi,Rice,low
+22.8,133,86,6.3,high,clay,Rabi,Rice,low
+19.4,196,71,5.8,high,clay,Rabi,Rice,low
+24.6,295,59,6.0,high,clay,Rabi,Rice,low
+28.3,297,64,7.4,high,loamy,Rabi,Rice,low
+19.5,118,80,6.0,high,loamy,Rabi,Rice,low
+21.1,200,79,5.9,high,clay,Rabi,Rice,low
+28.7,261,73,7.0,high,clay,Rabi,Rice,low
+29.7,209,86,5.6,high,loamy,Rabi,Rice,low
+23.5,221,71,7.6,high,loamy,Rabi,Rice,low
+30.6,182,73,6.3,high,clay,Rabi,Rice,low
+24.6,205,72,6.2,high,clay,Rabi,Rice,low
+20.2,199,69,6.4,high,loamy,Rabi,Rice,low
+21.8,178,87,6.3,high,loamy,Rabi,Rice,low
+30.1,169,58,6.9,high,loamy,Rabi,Rice,low
+24.3,237,60,5.7,high,clay,Rabi,Rice,low
+27.8,291,63,6.2,high,loamy,Rabi,Rice,low
+21.5,280,70,5.9,high,loamy,Rabi,Rice,low
+22.4,250,75,6.0,high,loamy,Rabi,Rice,low
+24.7,224,70,6.5,high,clay,Rabi,Rice,low
+28.1,109,65,6.5,high,clay,Rabi,Rice,low
+20.4,96,60,6.9,high,loamy,Rabi,Rice,low
+26.2,160,67,6.8,high,loamy,Rabi,Rice,low
+28.4,131,77,6.5,high,loamy,Rabi,Rice,low
+28.6,209,59,7.1,high,clay,Rabi,Rice,low
+23.7,157,69,6.4,high,clay,Rabi,Rice,low
+25.7,284,67,7.0,high,loamy,Rabi,Rice,low
+20.8,250,72,5.6,high,loamy,Rabi,Rice,low
+24.7,282,73,6.2,high,loamy,Rabi,Rice,low
+26.4,166,86,6.1,high,clay,Rabi,Rice,low
+20.7,169,81,6.7,high,loamy,Rabi,Rice,low
+20.3,164,68,6.2,high,clay,Rabi,Rice,low
+21.9,156,60,6.9,high,clay,Rabi,Rice,low
+23.1,89,67,6.4,high,loamy,Rabi,Rice,low
+22.3,245,75,7.6,high,loamy,Rabi,Rice,low
+22.9,107,72,6.9,high,loamy,Rabi,Rice,low
+25.0,272,77,5.7,high,loamy,Rabi,Rice,low
+30.4,131,76,7.6,high,clay,Rabi,Rice,low
+22.5,95,87,6.3,high,clay,Rabi,Rice,low
+27.5,218,75,6.0,high,loamy,Rabi,Rice,low
+21.6,269,77,6.0,high,loamy,Rabi,Rice,low
+26.9,157,70,5.9,high,clay,Rabi,Rice,low
+29.4,230,73,5.8,high,clay,Rabi,Rice,low
+26.9,275,85,6.0,high,clay,Rabi,Rice,low
+25.3,169,62,5.7,high,loamy,Rabi,Rice,low
+24.0,284,84,6.8,high,loamy,Rabi,Rice,low
+28.8,234,65,6.7,high,clay,Rabi,Rice,low
+20.5,129,65,7.3,high,loamy,Rabi,Rice,low
+25.7,185,77,5.4,high,loamy,Rabi,Rice,low
+20.8,144,81,6.9,high,clay,Rabi,Rice,low
+30.4,197,59,7.3,high,loamy,Rabi,Rice,low
+26.2,285,84,6.3,high,clay,Rabi,Rice,low
+23.8,279,82,5.9,high,loamy,Rabi,Rice,low
+25.0,105,75,7.1,high,loamy,Rabi,Rice,low
+28.9,255,81,7.1,high,clay,Rabi,Rice,low
+20.9,125,86,6.4,high,clay,Rabi,Rice,low
+24.9,171,86,6.1,high,loamy,Rabi,Rice,low
+27.1,307,84,7.5,high,loamy,Rabi,Rice,low
+35.5,275,54,7.6,high,clay,Zaid,Rice,low
+35.2,267,60,6.6,high,loamy,Zaid,Rice,low
+37.7,243,69,5.9,high,loamy,Zaid,Rice,low
+27.3,307,80,7.5,high,clay,Zaid,Rice,low
+38.1,260,62,7.3,high,loamy,Zaid,Rice,low
+34.5,288,75,6.3,high,loamy,Zaid,Rice,low
+37.3,275,80,6.4,high,loamy,Zaid,Rice,low
+35.5,287,77,7.3,high,clay,Zaid,Rice,low
+31.3,224,77,7.1,high,clay,Zaid,Rice,low
+36.0,233,58,6.4,high,clay,Zaid,Rice,low
+31.8,230,62,5.5,high,clay,Zaid,Rice,low
+33.2,309,77,7.1,high,loamy,Zaid,Rice,low
+32.4,287,57,5.7,high,loamy,Zaid,Rice,low
+29.5,180,58,7.4,high,clay,Zaid,Rice,low
+38.2,298,72,6.8,high,loamy,Zaid,Rice,low
+29.5,247,58,6.3,high,loamy,Zaid,Rice,low
+28.9,306,58,6.7,high,loamy,Zaid,Rice,low
+36.2,299,77,6.5,high,clay,Zaid,Rice,low
+29.4,284,76,6.0,high,loamy,Zaid,Rice,low
+28.7,283,70,7.6,high,clay,Zaid,Rice,low
+32.1,179,57,6.0,high,clay,Zaid,Rice,low
+34.4,295,64,6.9,high,clay,Zaid,Rice,low
+27.3,115,62,6.9,high,loamy,Zaid,Rice,low
+35.4,255,60,5.6,high,clay,Zaid,Rice,low
+31.1,138,79,7.7,high,clay,Zaid,Rice,low
+30.1,228,62,6.3,high,clay,Zaid,Rice,low
+38.4,214,70,5.9,high,loamy,Zaid,Rice,low
+37.4,115,62,6.6,high,loamy,Zaid,Rice,low
+28.6,94,57,7.4,high,loamy,Zaid,Rice,low
+37.9,150,78,6.8,high,loamy,Zaid,Rice,low
+32.3,122,74,6.5,high,loamy,Zaid,Rice,low
+27.8,118,60,5.4,high,clay,Zaid,Rice,low
+35.4,185,82,7.5,high,loamy,Zaid,Rice,low
+31.3,248,67,6.5,high,clay,Zaid,Rice,low
+31.3,131,61,7.3,high,clay,Zaid,Rice,low
+34.0,309,68,6.7,high,clay,Zaid,Rice,low
+30.1,200,56,6.1,high,clay,Zaid,Rice,low
+31.8,221,81,7.3,high,clay,Zaid,Rice,low
+28.1,277,72,6.4,high,clay,Zaid,Rice,low
+31.0,94,71,6.4,high,clay,Zaid,Rice,low
+37.2,270,61,7.2,high,loamy,Zaid,Rice,low
+28.3,143,60,7.1,high,clay,Zaid,Rice,low
+27.4,132,64,6.3,high,clay,Zaid,Rice,low
+30.7,270,74,7.5,high,loamy,Zaid,Rice,low
+34.9,277,68,6.5,high,loamy,Zaid,Rice,low
+30.3,223,56,6.3,high,clay,Zaid,Rice,low
+32.2,183,54,6.1,high,clay,Zaid,Rice,low
+34.7,250,80,6.6,high,loamy,Zaid,Rice,low
+32.6,102,76,6.0,high,loamy,Zaid,Rice,low
+37.0,205,62,5.5,high,clay,Zaid,Rice,low
+33.2,202,65,6.4,high,loamy,Zaid,Rice,low
+30.2,103,68,5.6,high,clay,Zaid,Rice,low
+36.3,280,54,6.3,high,loamy,Zaid,Rice,low
+34.0,190,72,6.8,high,loamy,Zaid,Rice,low
+38.4,286,58,5.8,high,clay,Zaid,Rice,low
+32.2,88,64,5.4,high,loamy,Zaid,Rice,low
+35.2,286,81,6.7,high,loamy,Zaid,Rice,low
+34.4,310,63,6.9,high,loamy,Zaid,Rice,low
+28.2,115,59,7.2,high,clay,Zaid,Rice,low
+29.6,234,72,6.4,high,clay,Zaid,Rice,low

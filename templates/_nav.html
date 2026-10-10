@@ -1,0 +1,4 @@
+<div class="nav">
+    <a href="{{ url_for('home') }}" {% if request.endpoint == 'home' %}class="active"{% endif %}>Recommend</a>
+    <a href="{{ url_for('history_page') }}" {% if request.endpoint and request.endpoint.startswith('history') %}class="active"{% endif %}>History</a>
+</div>
